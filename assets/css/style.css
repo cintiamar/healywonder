@@ -617,8 +617,8 @@ section#receiving-my-frequencies h2.titleandspan{
     }
     
 
-/* newsletter*/
-#newsletter p{
+  /* newsletter*/
+  #newsletter p{
     color: #39362b;
     text-align:center!important;
     font-size: 1em;	
@@ -628,3 +628,268 @@ section#receiving-my-frequencies h2.titleandspan{
    margin:20px 0;
    }
    
+
+   /* page under construction */
+
+   
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+  /**
+  * Variables
+  **/
+  
+  :root {
+    --metric-rhythm: 2rem;
+    --metric-interaction-padding: 0.6rem 0.6rem;
+  }
+  
+  /**
+  * Base
+  **/
+  
+  body#shop {
+    height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-template-areas:
+      "header side-image"
+      "main side-image"
+      "main side-image"
+      "footer side-image";   
+    background-size: 100% 100%;
+  }
+  
+  
+  
+  
+  /**
+  * Utilities
+  **/
+  
+  .visually-hidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap;
+  }
+  
+  .flow {
+    --flow-space: var(--metric-rhythm);
+  }
+  
+  .flow > * + * {
+    margin-top: 1em;
+    margin-top: var(--flow-space);
+  }
+  
+  /**
+  * Header
+  **/
+  
+  body#shop header {
+    grid-area: header;
+    height: 100px;
+    padding-top: 2rem;
+    padding-left: 10rem;
+  }
+  
+  
+  body#shop  a{
+  margin-bottom:25px;
+  color:black;
+  }
+  
+  
+  
+  /**
+  * Side
+  **/
+  
+  .side-image {
+    grid-area: side-image;
+    background-image: url('../images/shop/healywonder-850x1200.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /**
+  * Main
+  **/
+  
+  .main {
+    grid-area: main;
+    max-width: 800px;
+    padding-left: 10rem;
+  }
+  
+  body#shop h2 {
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    word-spacing: 100vw;
+    line-height: 1.1em;
+  }
+  
+  body#shop h2 .heading--pink {
+    font-weight: 300;
+    color: hsl(0, 36%, 70%);
+    letter-spacing: 0.33em;
+  }
+  
+  .main p {
+    color: hsl(0, 36%, 70%);
+     width: 49ch;
+     line-height: 1.5em;
+  }
+  
+  .main p ~ span{
+      
+  line-height:80px;
+  }
+  
+  
+  
+  .form {
+      --flow-space: 3.5rem;
+  }
+  
+  .form__control {
+    display: flex;
+    position: relative;
+    width: 48ch;
+    border: 1px solid hsl(0, 36%, 70%);
+    border-radius: 999px;
+    transition: 0.2s;
+    --flow-space: 0.5rem;
+  }
+  
+  .form__control:focus-within {
+    border-width: 2px;
+  }
+  
+  .form__control label {
+    position: absolute;
+    text-transform: capitalize;
+    height: 100%;
+    color: hsl(18, 88.4%, 62.9%);
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    width: 100%;
+    transition: 0.2s;
+  }
+  
+  input:-webkit-autofill,
+  input:-webkit-autofill:hover, 
+  input:-webkit-autofill:focus, 
+  input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+  }
+  
+  .form__control input {
+    border: none;
+    background-color: transparent;
+    outline: 0;
+    padding: 20px 0 20px 2rem;
+    flex: auto;
+  }
+  
+  input:focus + label, input:not([value=""]) + label {
+      align-items: flex-start;
+      opacity: 0.75;
+      transform: translateY(-1.5rem);
+  }
+  
+  
+  .button {
+    z-index: 1;
+    background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(18, 88.4%, 62.9%));
+    min-width: 7.5rem;
+    border-radius: 999px;
+    cursor: pointer;
+  }
+  
+  .button:hover, .button:focus {
+    filter: brightness(1.05);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    outline: 0;
+  }
+  
+  .button svg {
+    transform: translateY(1px); /* Optical adjustment */
+  }
+  
+  /**
+   * ALERT COMPONENT
+   */
+  
+  .form__alert {
+      --flow-space: 0;
+  }
+  
+  .alert {
+    --alert-text: hsl(0, 36%, 70%);
+  
+    display: flex;
+    align-items: flex-start;
+    color: var(--alert-text);
+    animation: slide-up 250ms ease;
+  }
+  
+  .alert[data-state='success'] {
+    --alert-text: green;
+  }
+  
+  .alert__icon {
+    font-size: 1.6em;
+    flex-shrink: 0;
+  }
+  
+  .alert__content {
+    padding-left: 2rem;
+  }
+  
+  .alert__content b {
+    display: block;
+  }
+  
+  /**
+   * ANIMATIONS
+   */
+  @keyframes slide-up {
+    0% {
+      opacity: 0;
+      transform: translateY(0.4rem);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+    
+  
+  /*footer  under construction*/
+  
+  body#shop footer{
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    background-color:#333;
+  }
+  
+   body#shop footer a{
+    color:#fff;
+  }
+  
