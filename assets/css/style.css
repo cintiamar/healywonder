@@ -616,6 +616,30 @@ section#receiving-my-frequencies h2.titleandspan{
     margin-top:38px;	
     }
     
+/*  scroll-to-top /////////*/
+
+#scroll-to-top{		
+  background: linear-gradient(135deg, #f4744d 0%, #3A1C71 70%);
+ color:white!important;
+ position:fixed;
+ right:30px;
+ bottom:30px;
+ z-index:999;
+ font-size:3em;
+ width:60px;
+ height:60px;
+ text-align:center;
+ transition: all 0.7s ease-in-out;
+}
+ 
+
+
+#scroll-to-top:hover{
+ background:#f4744d ;	
+ }
+
+
+
 
   /* newsletter*/
   #newsletter p{

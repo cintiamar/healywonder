@@ -165,6 +165,8 @@
         
         </div> <!-- /innerbox  -->
     </section>	
+
+    <a href="" title="" id="scroll-to-top"><i class="fas fa-chevron-up"></i></a>
     
     <section></section>
     <footer>
@@ -190,6 +192,32 @@
         </div> <!-- /innerbox  -->
     </footer>
 
-    <script src="js/script.js"></script>
+    <!-- scripts -->    
+	<script  src="js/script.js"></script>
+	<script  src="js/lightbox-plus-jquery.min.js"></script>  <!-- scrol to top  -->
+    
+    <script >  <!-- scrol to top  -->
+        $(document).ready(function(){
+            // einblenden des scroll-to-top-buttons
+            $(function () {
+                $(window).scroll(function () {
+                    if ($(this).scrollTop() > 100) {
+                        $('#scroll-to-top').fadeIn();
+                    } else {
+                        $('#scroll-to-top').fadeOut();
+                    }
+                });
+        
+            // scroll body to 0px on click
+                $('#scroll-to-top').click(function () {
+                    $('body,html').animate({
+                        scrollTop: 0
+                    }, 800);
+                    return false;
+                });
+            });
+        
+        });
+        </script>
 </body>
 </html>
