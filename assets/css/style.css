@@ -236,46 +236,95 @@ img.logo{
     
 
 /* btn styles*/
+btn{
+	margin-top:1.3em;
+	display: inline-block; 
+	text-transform: uppercase; 
+	font-weight: 600; 
+	color: #39262b; 
+	color: rgba(57,54,43,1);	
+	padding: 11px 30px; 
+	font-size: 0.9em;
+	letter-spacing: 2px;
+	}
+	
+		
+/*  btn styles */
+
+.btn-hero{	
+	display: inline-block; 
+	text-transform: uppercase; 	
+	font-weight: 600; 	
+	padding: 0.9em 1.875em; 
+	font-size: 0.8em;
+	letter-spacing: 2px; 	
+	transition: all 0.5s ease-in-out;
+	}
+
+.btn-hero-s1{	
+	border:2px solid #fff;
+	color:#fff;	
+}
+
+.btn-hero-s1:hover{
+background: linear-gradient(135deg, #f4744d 0%, #3A1C71 70%);  
+border:transparent; 
+}
+
+	
+.btn-hero-s2{	
+	border:transparent; 
+	color:#fff;
+	background: linear-gradient(135deg, #f4744d 0%, #3A1C71 70%);  
+}
 
 
-#hero a#btn-hero{
-    display:block;	
-    position:absolute;
-    margin-top:4em;	
-    left:36%; 
-    top:77%;  
-    color: #fff; 
-    text-align:center;	
-    }
-    
-    #hero a#btn-buy-now{
-    display:block;	
-    position:absolute;
-    margin-top:4em;	
-    left:51%; 
-    top:77%; 
-    color: #fff; 
-    text-align:center;	
-    }
-    
-    
-    button.btn-hero-cupon{
-    position:absolute;
-    margin-top:4em;
-    top:57%;  
-    }
-    
-    .btn-cuponcode{	
-        border:1px solid #fff;	
-        display: inline-block; 
-        text-transform: uppercase; 
-        background-color: transparent;
-        font-weight: 600; 	
-        padding: 0.9em 7.75em; 
-        font-size: 0.8em;
-        letter-spacing: 2px; 	
-        transition: all 0.5s ease-in-out;
-        border-radius:40px;
-        color:#fff;
-    }
+.btn-hero-s2:hover{
+background:#f4744d ;
+}	
+
+
+/* btn position*/
+
+#hero a#btn-know-more{
+display:block;	
+position:absolute;
+margin-top:4em;	
+left:36%; 
+top:77%;  
+color: #fff; 
+text-align:center;	
+}
+
+#hero a#btn-hero-buy-now{
+display:block;	
+position:absolute;
+margin-top:4em;	
+left:51%; 
+top:77%; 
+color: #fff; 
+text-align:center;	
+}
+
+
+button.btn-hero-cupon{
+position:absolute;
+margin-top:4em;
+top:57%;  
+}
+
+.btn-cuponcode{	
+	border:1px solid #fff;	
+	display: inline-block; 
+	text-transform: uppercase; 
+	background-color: transparent;
+	font-weight: 600; 	
+	padding: 0.9em 7.75em; 
+	font-size: 0.8em;
+	letter-spacing: 2px; 	
+	transition: all 0.5s ease-in-out;
+	border-radius:40px;
+	color:#fff;
+}
+	
         
