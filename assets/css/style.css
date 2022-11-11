@@ -141,7 +141,18 @@
     background:#39362b;		
     background:rgba(57,54,43,0.7);		
     }
-    
+ 
+/*Header  */
+header{
+	padding:0px;
+	text-transform:uppercase !important;  
+	position:fixed;
+	z-index:9999;
+	width:100%;
+	left:0;
+	top:0;
+	}
+   
     
     #navbar{
         top: 0;
