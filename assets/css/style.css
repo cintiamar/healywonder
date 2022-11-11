@@ -628,6 +628,94 @@ section#receiving-my-frequencies h2.titleandspan{
    margin:20px 0;
    }
    
+   /*footer - home */
+
+footer{
+  padding:20px;	
+  background-color:#333;
+  }
+  footer ul#social-footer{
+  float:left;
+  }
+  
+  footer ul#social-footer li{
+  display:inline;
+  }  
+  
+  footer ul#social-footer li:nth-child(2){ 
+  display:none;
+  }
+  footer ul#social-footer li:nth-child(3){ 
+  display:none;
+  }
+  
+  
+  
+  footer ul#social-footer li a i{
+  color:#f4744D; 
+  color:rgba(244,116,77,0.9); /*laranja chronic */
+  font-size:1.6em; 
+  transition: all 0.7s ease-in-out;
+  }  
+  
+  footer ul#social-footer li a i:hover{
+  color:#fff!important;
+  color:rgba(255,255,255,1)!important;
+  
+  }  
+  
+  footer ul#website{
+  text-align:center!important;
+  overflow:hidden;
+  list-style-type:none;	 
+  }
+  
+  footer ul#website a{
+  color:#fff;	
+  color:rgba(255,255,255,0.6);
+  }
+  
+  
+  footer ul#website a:hover{
+  color:#fff;	
+  color:rgba(255,255,255,1);
+  } 
+  
+  
+  #legal{
+  float:right;
+  list-style-type:none;	 
+  }
+  
+  
+  ul#legal li{
+  display:inline;	
+  } 
+  
+  
+  ul#legal li a{
+  color:#fff;	
+  color:rgba(255,255,255,0.6); 
+  margin-left:20px !important;
+  transition: all 0.7s ease-in-out;
+  } 
+  
+  
+  ul#legal li a:hover{
+  color:#fff;	
+  color:rgba(255,255,255,1);
+  }
+  
+  ul#copyright.vierfuenftel{
+  text-align:center;
+  overflow:hidden	
+  }
+  
+  ul#copyright.vierfuenftel li a{
+  color:#fff;	
+  color:rgba(255,255,255,0.6);
+  }
+  
 
    /* page under construction */
 
@@ -711,9 +799,7 @@ section#receiving-my-frequencies h2.titleandspan{
   
   
   
-  /**
-  * Side
-  **/
+  /* Side */
   
   .side-image {
     grid-area: side-image;
