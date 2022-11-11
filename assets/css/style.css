@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Karla|Rubik:300,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,800;1,400;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+
 
 *{
     padding:0;
@@ -39,6 +43,92 @@
      margin:25px 0; 
      }
         
+     nav{
+        font-family: 'Open Sans', sans-serif;
+        }
+    
+        .innerbox{
+            max-width:980px;
+            margin-left:auto;
+            margin-right:auto;
+            overflow:hidden;	
+            }
+        
+        
+        
+        .innerbox-section{
+            max-width:980px;
+            margin-left:auto;
+            margin-right:auto;
+            overflow:hidden;	
+            padding-bottom:3em;
+            }
+        
+        
+        section h1, 
+        section h2, 
+        section h3,
+        section h4,
+        section h5{
+        color:#39362b;	
+        }
+        
+        section h1{
+            text-align: center;
+            font-size:1.875em; 
+            letter-spacing:2px;
+            font-weight:normal;  
+            margin-bottom:20px;
+            font-weight:600; 
+            margin-top:0;
+        
+            
+        }
+        
+        section h2{
+            text-align: center;
+            font-size:1.875em; 
+            letter-spacing:2px;
+            font-weight:normal;  
+            margin-bottom:20px;
+            font-weight:600; 
+            
+        }
+        
+        section h3{
+        line-height:18px;	
+        font-size:1.5em; 
+        text-align: left;
+        font-weight:normal;  
+        font-weight:500; 
+        }
+        
+        
+        
+        section h4{
+        line-height:18px;	
+        font-size:1.255em;
+        text-align:left;
+        font-weight:normal;  
+        font-weight:500; 
+        }
+        
+        
+        section h5{
+        line-height:18px;	
+        font-size:1.125em;
+        text-align:left;
+        font-weight:normal;  
+        font-weight:500; 
+        }
+        
+        
+        
+        section p{      
+        line-height:18px;	
+        margin:10px 0;
+        }
+           
 
 /* color style */
 
