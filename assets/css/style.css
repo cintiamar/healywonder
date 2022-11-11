@@ -132,8 +132,8 @@
         }
            
         .row{
-            overflow:hidden;  
-            margin:20px 0;
+        overflow:hidden;  
+         margin:20px 0;
             }
         
 /* color style */
@@ -617,3 +617,15 @@ section#receiving-my-frequencies h2.titleandspan{
     }
     
 
+/* newsletter*/
+
+#newsletter p{
+    color: #39362b;
+    text-align:center!important;
+    font-size: 1em;	
+   }
+   
+   #newsletter form{
+   margin:20px 0;
+   }
+   
