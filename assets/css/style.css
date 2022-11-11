@@ -169,6 +169,33 @@ header{
         height:35px;
         }
 
+        div#menu1{
+            height: 7vh; 
+          
+          }	
+          
+          div#menu1 h1{
+              width: 170px!important;       
+              height: 30px;
+              position: absolute;
+              top:50%;
+              left: 50%;           
+              margin-top: -30px;   
+              margin-left: -85px; 
+              text-transform: none; 
+              text-align:center;
+              transition: 0.5s;
+              transition: all 0.7s ease-in-out;
+              color:rgba(255,255,255,0.5);
+          }	
+          
+          
+          div#menu1 h1:hover{
+              color:#fff;	
+              color:rgba(255,255,255,1);
+          }
+             
+
 
         #nav-display-offer span{
             font-size:1.7em;
