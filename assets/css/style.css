@@ -232,6 +232,10 @@ img.logo{
     background-attachment:fixed;
     background-size:cover;
     position:relative;
+    display: flex;
+    flex-direction: column;  /*alinha items em coluna ou seja verticalmente*/
+    justify-content: space-between;
+    align-items: center;	
     }
     
 
