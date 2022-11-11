@@ -157,7 +157,10 @@
     background:rgba(249,249,249,1);
     }
 
-
+.gradient{
+    background: linear-gradient(90deg, #f4744d 0%, #3A1C71 100%);
+        }
+        
 
 /*Header  */
 header{
@@ -478,4 +481,20 @@ top:57%;
             padding-top:8px;	
             }
             
-            
+     div.info-box{
+    font-family:'Open Sans', sans-serif;
+    height:140px;
+    }
+
+
+    .info-box .innerbox{
+    padding:40px 10px;	
+    }
+
+
+
+    div.info-box p{
+    font-family:'Open Sans', sans-serif;
+    color:#fff;
+    }
+       
