@@ -129,7 +129,11 @@
         margin:10px 0;
         }
            
-
+        .row{
+            overflow:hidden;  
+            margin:20px 0;
+            }
+        
 /* color style */
 
 
@@ -141,7 +145,20 @@
     background:#39362b;		
     background:rgba(57,54,43,0.7);		
     }
- 
+    
+    
+.gray{
+    background:#f2f2f2;		
+    background:rgba(242,242,242,1);
+    }
+    
+.gray-light{
+    background:#f9f9f9;		
+    background:rgba(249,249,249,1);
+    }
+
+
+
 /*Header  */
 header{
 	padding:0px;
@@ -331,4 +348,132 @@ top:57%;
 	color:#fff;
 }
 	
+ /* icons styles */     
+ 
+ 
+/* Myicons  //////*/
+
+ul.myicons{
+    margin:0em;
+    padding:0;
+    list-style-type:none;  /*hiden tudo que estiver fora da borda, no caso os BULLETS*/
+    
+            }
+
+    ul.myicons > li {
+    position: relative;
+    margin:0px;	
+    margin-top:0;	
+        }	
+    
+
+    ul.myicons > li:first-child {
+        border-top: none;			
+                }
+                
+    ul.myicons > li:nth-child(2n){
+        border-top: none;		
+
+                }
+                
+    ul.myicons > li:nth-child(3n){
+        border-top: none;
+    
+                }
         
+            
+    ul.myicons > li:first-child,
+    ul.myicons > li:nth-child(2n),
+    ul.myicons > li:nth-child(3n){
+                        }		
+
+                        
+                
+        section ul.myicons h3{
+        height: 1.1em;
+        display:flex;
+        margin:0;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+        }				
+    
+    ul.myicons i{
+    position:relative;	
+    top:50%;
+    left:50%;
+    transform:translate(-50%,0);
+    color:#440096;		
+    color:rgba(68,0,102,1);
+    }
+    
+    
+    
+    
+
+    ul.myicons i:hover{
+    color:#fff;	
+    color:rgba(255,255,255,0.7);
+    }
+
+    ul.myicons .webicons {  
+    float: left;
+    display: inline-block;	
+    margin:20px 10px 0 10px; 
+    font-size:40px; 
+    line-height: 1.3em;
+    width:1.2em;	
+    background:#e2e1d6;		
+    background:rgba(226,225,214,1);
+    border-radius:50%;		
+    }
+    
+    ul.myicons .checkicon .webicons{   
+        margin:0px 10px 0 10px; 
+        font-size:30px;		
+    }
+    
+    
+    ul.myicons .webicons:hover {
+    background:#440096;			
+    background:rgba(68,0,102,1);	
+    transition: all 0.7s ease-in-out;
+    }
+
+
+    
+    ul.myicons p {
+    height: 80px;		
+    margin:0;
+        }
+
+    
+    ul.myicons .checkicon  p{
+    height:50px;
+    align-items: center;
+    display:block; 
+    padding-top:8px;
+
+    }
+    
+    .certificacoes-icon{
+        font-size:3.5em; 
+        line-height: 1.3em;
+        width:1.2em;		
+        color:rgba(45,45,45,0.3);	
+        display: flex;	
+        margin-left: auto;
+        margin-right: auto;		
+                }
+            
+        
+        
+        .certificacoes-icon i:hover{
+        color:  #3A1C71;
+              transition: all 0.7s ease-in-out;
+        }
+        
+            
+        span.certificacoes-icon i{
+        padding-top:50px;
+        }     
