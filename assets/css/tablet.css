@@ -1,93 +1,121 @@
 @media only screen and (max-width: 992px) {
 
-.innerbox, .innerbox-section{
-	border:1px solid green;  
-	}
-	
-.innerbox-section{
-	padding-left: 2%;
-	padding-right: 2%;    	
-	}
-	
-
- #nav-display-offer span{
-	font-size:1.4em;
-	 }
- 
- 
-footer ul#social-footer li:nth-child(2), footer ul#social-footer li:nth-child(3){ 
-display:none!important;
-}
-
-
-	
-img.logo{
-margin-left:80px;
-
-}
-	
-#hero a#btn-know-more{
-left:41%; 	
-}
-
-
-#hero a#btn-hero-buy-now{
-left:42%; 
-}
-	
-section h2{
-font-size:1.3em; 
-}
-
-section#medicaldevice .innerbox-section{
-padding-right:15px;
-}
-
-section#receiving-my-frequencies article div#video-editions-1{
-margin-top:100px;	
-}
-
-
-section#receiving-my-frequencies article.half p:nth-child(3),
-section#receiving-my-frequencies article.half p:nth-child(4){
-background:green; 
-}
-
-
-.buy-now{
-margin-top:20px!important;	
-}
-
-
-
-a#scroll-to-top{
-	display:none; 
-}
-
-
-/* footer */
-
-footer ul#social-footer li a{
-font-size:1.2em; 
-}  
-
-
-footer ul#website.one-third{
-width:26%;	
-font-size:14px;
-} 
-
-footer ul#legal.one-third{
-width:38%;	
-font-size:14px;
-margin-right:0%!important;
-margin-top:-17px!important;
-} 
-			
-
-ul#legal li a{
-margin-left:10px !important;
-}
-
-
-}
+    .innerbox-section{
+        padding-left: 2%;
+        padding-right: 2%;    	
+        }
+        
+    
+     #nav-display-offer span{
+        font-size:1.4em;
+         }
+     
+     
+    footer ul#social-footer li:nth-child(2), footer ul#social-footer li:nth-child(3){ 
+    display:none!important;
+    }
+    
+    
+        
+    img.logo{
+    margin-left:80px;
+    
+    }
+        
+    #hero a#btn-know-more{
+    left:32%; 	
+    }
+    
+    
+    #hero a#btn-hero-buy-now{
+    left:52%; 
+    
+    }
+        
+    section h2{
+    font-size:1.3em; 
+    }
+    
+    section#medicaldevice .innerbox-section{
+    padding-right:15px;
+    }
+    
+    
+    
+    
+    section#receiving-my-frequencies article.half{
+    width:98%;
+    float:left;	
+    margin-right:2%;
+    /*border: 1px solid red;*/
+    }
+    
+    
+    
+    section#receiving-my-frequencies article div#video-editions-1,
+    section#receiving-my-frequencies article div#video-editions-2{
+     margin-left: auto;
+     margin-right: auto;
+     width:80%;
+     margin-top:0;
+    }
+    
+    
+    section#receiving-my-frequencies article.half p:nth-child(3),
+    section#receiving-my-frequencies article.half p:nth-child(4){
+    /*background:green; */
+    }
+    
+    
+    
+    
+    .buy-now{
+    margin-top:20px!important;	
+    }
+    
+    
+    section#disclaimer-box{
+    padding-left:15px;
+    padding-right:15px;
+    }
+    
+    
+    
+    a#scroll-to-top{
+        display:none; 
+    }
+    
+    
+    /* footer */
+    
+    footer .row{
+    display:flex;	
+    }
+    
+    footer ul#social-footer li a{
+    font-size:1.2em; 
+    }  
+    
+    
+    footer ul#website.one-third{
+    width:26%;	
+    font-size:16px;
+    } 
+    
+    footer ul#legal.one-third{
+    width:38%;	
+    font-size:16px;
+    } 
+                
+    
+    ul#legal li a{
+    margin-left:10px !important;
+    }
+    
+    /*countdown*/
+    .countdown > div{
+        padding:0;
+    }
+    
+    }
+  
