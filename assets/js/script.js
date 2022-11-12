@@ -26,3 +26,18 @@ function countdown(){
  }
 countdown();
 setInterval(countdown,1000);
+
+
+// popup
+
+// Credits: Easy Tuturials
+//https://www.youtube.com/watch?v=AF6vGYIyV8M&t=549s
+
+let popup = document.getElementById('popup');
+function openPopup(){
+  popup.classList.add('open-popup');  
+}
+
+function closePopup(){
+  popup.classList.remove('open-popup');  
+}
