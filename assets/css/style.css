@@ -859,7 +859,7 @@ footer{
   
   .side-image {
     grid-area: side-image;
-    background-image: url('../images/shop/healywonder-850x1200.png');
+    background-image: url('../images/shop/healywonder-850x1200-1.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -1029,6 +1029,7 @@ footer{
     display: flex;
     justify-content: center;
     background-color:#333;
+    margin-top:60px;
   }
   
    body#shop footer a{
