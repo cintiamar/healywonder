@@ -557,24 +557,28 @@ div#alleditions .buy-now{
             display:block; 
             padding-top:8px;	
             }
-            
+     
+     /* infos */       
      div.info-box{
     font-family:'Open Sans', sans-serif;
     height:140px;
     }
 
 
-    .info-box .innerbox{
+    .info-box .innerbox,
+    section#disclaimer-box{
     padding:40px 10px;	
     }
 
-
-
+    
     div.info-box p{
     font-family:'Open Sans', sans-serif;
     color:#fff;
     }
 
+    section#disclaimer-box *{
+      color:#fff;	
+      }
 
  /*  video */ 
 
