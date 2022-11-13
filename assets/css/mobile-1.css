@@ -194,7 +194,16 @@
 	margin-left:40px!important;
 	}
 
+		/* quiz*/
 
+		[id=container] {
+			width: 98vw;
+			margin:0;
+			border:none;
+			padding:10px;
+		  }
+	  
+	  
 
 
 	/* page under construction  */
