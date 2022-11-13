@@ -161,6 +161,14 @@ bottom: 90px;
 display:none!important;
 }
 
+
+/* Quiz  */
+
+[id=container] {
+	width: 91vw;
+  }
+  
+
 /* page under construction */
 
  .form__control {
