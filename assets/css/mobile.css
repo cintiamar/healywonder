@@ -1,0 +1,191 @@
+
+
+
+@media only screen and (max-width: 768px) and (min-width: 421px){
+	
+	
+	.innerbox, .innerbox-section{
+	border:1px solid blue;    
+	padding-left:5px;
+	padding-right:5px;
+	}
+
+
+body{
+background-color:pink;
+}
+
+
+ #nav-display-offer span{
+	font-size:1.2em;
+ }
+ 
+
+
+footer ul#social-footer.one-third li:nth-child(2), footer ul#social-footer.one-third li:nth-child(3){ /* 2-INSTAGRA  3- Youtube*/
+display:none!important;
+}
+
+footer ul#social-footer.one-third,
+footer ul#website.one-third,
+footer ul#legal.one-third{
+width:98%;	
+margin-right:2%;
+text-align:center;
+} 
+
+
+
+/*scroll-to-top  Mobile //////////*/
+#scroll-to-top{
+display:none
+}
+
+
+
+#hero{
+background-image:linear-gradient(to bottom, rgba(2, 0, 36, 0.2), rgba(117, 19, 93, 0.63)),url('../images/herolanding/mobile/hero4-1280x850-mobile.png')!important;
+background-position:30% center;
+}
+
+#hero a#btn-know-more{
+display:none;
+}
+
+
+#hero a#btn-hero-buy-now{
+left:43%; 
+}
+
+
+
+
+
+section h2{
+font-size:20px;	
+}
+
+
+/*///// NAV MENU1 social + healyworld member ////////////*/
+
+
+img.logo{
+display:none;
+}
+
+/*///// section#medicaldevice///////////*/
+
+section#medicaldevice ul.myicons p {
+		height: 90px;	
+		}
+
+section#medicaldevice ul.myicons {  		
+padding-bottom:50px!important;
+}
+
+
+/*///// certification ///////////*/	
+section#certification.myicons{
+padding-bottom:50px!important;
+}	
+
+
+section#receiving-my-frequencies article.half:nth-child(2){
+margin-top:40px;
+/*background:green;  */
+}
+
+section#receiving-my-frequencies article.half{
+width:90%;	
+margin-right:5%;
+margin-left:5%;	
+}
+
+section#receiving-my-frequencies article.half #video-editions-1, section#receiving-my-frequencies article.half #video-editions-2{
+margin-top:20px;	
+}
+
+
+
+
+/*//////footer ////////*/
+
+footer .innerbox{
+height:200px;
+}  
+
+
+
+
+footer .innerbox ul#social-footer li{
+display:block!important;
+}  
+
+footer .innerbox ul#social-footer li a{
+font-size:1.2em;
+line-height:2em; /*maior distancia entre elementos da li*/
+}
+
+
+footer ul#website.one-third{
+display:none;
+} 
+
+
+
+footer .innerbox ul#legal{
+float:left;
+margin-top:0px!important;
+font-size:15px;
+}
+
+
+footer .innerbox ul#legal li a{
+
+display:block;
+line-height:2em; /*maior distancia entre elementos da li*/
+}
+
+ul#copyright.vierfuenftel li{
+margin-left:40px!important;
+}
+
+
+/*scroll-to-top ////////*/
+#scroll-to-top { 
+bottom: 90px; 
+display:none!important;
+}
+
+/* page under construction */
+
+ .form__control {
+   margin: 0 auto;
+  }
+
+
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
