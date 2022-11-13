@@ -6,6 +6,11 @@
         padding-right: 2%;    	
         }
         
+           
+        nav #menu1{
+          font-size:1.2em;   
+          width:100%;
+          }    
     
      #nav-display-offer span{
         font-size:1.4em;
@@ -20,7 +25,8 @@
         
     img.logo{
     margin-left:80px;
-    
+    display:none;
+
     }
         
     #hero a#btn-know-more{
