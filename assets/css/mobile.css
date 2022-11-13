@@ -43,10 +43,7 @@ display:none
 
 
 
-#hero{
-background-image:linear-gradient(to bottom, rgba(2, 0, 36, 0.2), rgba(117, 19, 93, 0.63)),url('../images/herolanding/mobile/hero4-1280x850-mobile.png')!important;
-background-position:30% center;
-}
+
 
 #hero a#btn-know-more{
 display:none;
@@ -85,6 +82,16 @@ padding-bottom:50px!important;
 
 
 /*///// certification ///////////*/	
+
+section#certification .innerbox-section{
+	padding-bottom: 0;	
+	}	
+
+
+section#certification ul.myicons {
+	height:180px;	
+	}	
+
 section#certification.myicons{
 padding-bottom:50px!important;
 }	
