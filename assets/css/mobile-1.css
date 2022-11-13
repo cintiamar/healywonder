@@ -1,0 +1,292 @@
+
+
+@media only screen and (max-width: 420px){	
+	
+	.innerbox, .innerbox-section{
+	border:1px solid red;    
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:0;
+	}
+	
+	/*offer - countdown*/
+
+	.main-content{
+	display:none;
+	}	
+
+
+	 #nav-display-offer span{
+		font-size:1.4em;
+	 }
+	 
+	 /* btn */
+	 
+	 .btn-cuponcode{
+	padding: 0.9em 3.75em; 
+	font-size: 0.8em;
+	letter-spacing: 2px; 	
+	
+	}
+	 
+	 button.btn-hero-cupon{
+	position:absolute;
+	margin-top:4em;
+	top:57%;  
+	}
+
+	 
+	 
+	#hero a#btn-know-more{
+	display:none;
+	}
+
+	div#alleditions .buy-now{
+	margin-top:40px;	
+	margin-bottom:40px;	
+	display:flex;
+	justify-content:center;	
+	}
+
+
+
+	footer ul#social-footer.one-third li:nth-child(2), footer ul#social-footer.one-third li:nth-child(3){ /* 2-Instagram  3- Youtube*/
+	display:none!important;
+	}
+
+
+	#scroll-to-top{
+	display:none
+	}
+
+
+	#hero{
+	background-image:linear-gradient(to bottom, rgba(2, 0, 36, 0.2), rgba(117, 19, 93, 0.63)),url('../images/hero/mobile/hero-mobile-1280x850.png')!important;
+	background-position:center center;
+	}
+
+	#hero a#btn-know-more{
+	left:35%; 
+	}
+
+
+	#hero a#btn-hero-buy-now{
+	left:36%; 
+	}
+
+
+	section h2{
+	font-size:20px;	
+	}
+
+
+	img.logo{
+	display:none;
+	}
+
+
+
+	/*infos*/
+
+	div.info-box{
+	height:180px;
+	}
+
+
+	section#disclaimer-box *{
+	color:#fff;	
+	}
+
+
+
+	/*///// certification ///////////*/	
+
+	section#certification ul.myicons {
+	height:120px;	
+	}	
+
+	section#certification ul.myicons {
+	height:120px;	
+	}	
+
+	section#certification.myicons{
+	padding-bottom:50px!important;
+	}	
+
+
+
+	section#receiving-my-frequencies article.half:nth-child(2){
+	margin-top:40px;
+	/*background:green; */
+	}
+
+
+	section#receiving-my-frequencies article.half p:nth-child(3),
+	section#receiving-my-frequencies article.half p:nth-child(4){
+	/*background:green; */
+	display:none;
+	}
+
+	section#receiving-my-frequencies article.half h3:nth-child(1){
+	line-height:24px;
+
+	}
+	section#receiving-my-frequencies article.half{
+	width:90%;	
+	margin-right:5%;
+	margin-left:5%;	
+	}
+
+	section#receiving-my-frequencies article.half #video-editions-1, section#receiving-my-frequencies article.half #video-editions-2{
+	margin-top:20px;	
+	}
+
+
+
+
+	/*//////footer ////////*/
+
+	footer .innerbox{
+	height:200px;
+	}  
+
+
+
+
+	footer .innerbox ul#social-footer li{
+	display:block!important;
+	}  
+
+	footer .innerbox ul#social-footer li a{
+	font-size:1.2em;
+	line-height:2em; 
+	}
+
+
+	footer ul#website.one-third{
+	display:none;
+	} 
+
+
+
+	footer .innerbox ul#legal{
+	float:left;
+	margin-top:0px!important;
+	font-size:15px;
+	}
+
+
+	footer .innerbox ul#legal li a{
+	display:block;
+	line-height:2em; 
+	}
+
+	ul#copyright.vierfuenftel li{
+	margin-left:40px!important;
+	}
+
+
+
+
+	/* page under construction  */
+
+
+	@media screen and (-ms-high-contrast: active) {
+	  input[type],
+	  button {
+		border: 1px solid;
+	  }
+	}
+	  
+
+
+	  body#shop {
+		grid-template-columns: 100%;
+		grid-template-areas:
+		  "header"
+		  "side-image"
+		  "main"
+		  "footer";
+	  }
+	  
+
+	body#shop  a{
+	font-size:30px;
+	}
+
+
+	  .side-image {
+		display:none;
+	  }
+	  
+	  /**
+	* Main
+	**/
+
+		.main {
+		  grid-area: main;
+		  max-width: 300px;
+		  padding-left:1rem!important;
+		
+		}
+		
+		body#shop h2 {
+		font-size: 2.3rem;
+		}
+
+		  
+	  .main, header {
+	   padding: 2rem;
+		width: 100vw;
+		margin: 0 auto; 
+	  }
+	  
+	  .main h2, .main p{
+		text-align: center;
+	  }
+	  
+	  .main h2 {
+		font-size: 3rem;
+	  }
+	  
+	  .main p {
+		width: 98%;
+		margin: 0 auto;
+		font-size:25px;
+	  }
+	  
+	  .main p ~ span{
+		line-height:80px;	
+		display:flex;
+		justify-content: center;
+		font-size:22px;
+		}
+
+	  
+	   .form__control {
+		width: 98%;
+		margin: 0 auto;
+	  }
+	  
+	  .button {
+	  min-width: 3.5rem;
+
+	}
+
+		
+
+	/**
+	* Footer
+	**/
+
+	body#shop footer p {	  
+	 margin-top:60px;
+	display:flex;
+	justify-content: center;
+	}
+
+}
+
+
+
+
