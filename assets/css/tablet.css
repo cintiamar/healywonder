@@ -161,6 +161,82 @@
       }
 
 
+      
+      /* page under construction  */
+
+
+      @media screen and (-ms-high-contrast: active) {
+        input[type],
+        button {
+          border: 1px solid;
+        }
+      }
+        
+
+
+        body#shop {
+          grid-template-columns: 100%;
+          grid-template-areas:
+            "header"
+            "side-image"
+            "main"
+            "footer";
+        }
+        
+
+      body#shop  a{
+      font-size:30px;
+      }
+
+
+        .side-image {
+        display:none;
+        }
+        
+        .main, header {
+          padding: 2rem;
+          width: 100vw;
+          margin: 0 auto;
+        }
+        
+        .main h2, .main p{
+          text-align: center;
+        }
+        
+        .main h2 {
+          font-size: 3rem;
+        }
+        
+        .main p {
+          width: 98%;
+          margin: 0 auto;
+        }
+        
+        .main p ~ span{
+        line-height:80px;	
+        display:flex;
+        justify-content: center;
+        font-size:27px;
+        }
+
+        
+        .form__control {
+          width: 68%;
+          margin: 0 auto;
+        }
+        
+
+      /**
+      * Footer
+      **/
+
+      body#shop footer p {  
+      margin-top:60px;
+}
+
+
+
+
 
     }
   
