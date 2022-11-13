@@ -75,63 +75,45 @@
             }
         
         
-        section h1, 
-        section h2, 
-        section h3,
-        section h4,
-        section h5{
-        color:#39362b;	
-        }
-        
-        section h1{
+            section h1, 
+            section h2, 
+            section h3,
+            section h4,
+            section h5{
+            color:#39362b;
             text-align: center;
-            font-size:1.875em; 
-            letter-spacing:2px;
-            font-weight:normal;  
-            margin-bottom:20px;
-            font-weight:600; 
-            margin-top:0;
-        
+              
+            }
             
-        }
-        
-        section h2{
-            text-align: center;
-            font-size:1.875em; 
-            letter-spacing:2px;
-            font-weight:normal;  
-            margin-bottom:20px;
-            font-weight:600; 
             
-        }
-        
-        section h3{
-        line-height:18px;	
-        font-size:1.5em; 
-        text-align: left;
-        font-weight:normal;  
-        font-weight:500; 
-        }
-        
-        
-        
-        section h4{
-        line-height:18px;	
-        font-size:1.255em;
-        text-align:left;
-        font-weight:normal;  
-        font-weight:500; 
-        }
-        
-        
-        section h5{
-        line-height:18px;	
-        font-size:1.125em;
-        text-align:left;
-        font-weight:normal;  
-        font-weight:500; 
-        }
-        
+            section h2{
+            letter-spacing:2px; 
+            margin-bottom:20px;
+            font-weight:600; 	
+            }
+            
+            section h3{
+            line-height:18px;	
+            font-size:1.5em; 
+            font-weight:500; 
+            }
+            
+            
+            section h4{
+            line-height:18px;	
+            font-size:16px;
+            font-weight:normal;  
+            font-weight:400; 
+            }
+            
+            
+            section h5{
+            line-height:18px;	
+            font-size:14px;
+            font-weight:normal;  
+            font-weight:300; 
+            }
+            
         
         
         section p{      
@@ -652,6 +634,11 @@ section#receiving-my-frequencies h2.titleandspan{
     section#receiving-my-frequencies article div#video-editions-1{
       margin-top:48px;
      }
+
+     section#receiving-my-frequencies article h3{
+      line-height:22px;
+      text-align:left;
+      }
     
 /*  scroll-to-top /////////*/
 

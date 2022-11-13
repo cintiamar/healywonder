@@ -84,6 +84,14 @@
     section h2{
     font-size:1.7em; 
     }
+
+    ul.myicons .checkicon  p{
+      height:50px;
+      align-items: center;
+      display:block; 
+      padding-top:8px;	
+      font-size: 18px;
+      }
     
     section#medicaldevice .innerbox-section{
     padding-right:15px;
