@@ -130,8 +130,7 @@
       }
       
       .side-image {
-        min-height: 25rem;
-        background-image: url('../images/healywonder-850x1200-1.png');
+      	display:none;
       }
 
       

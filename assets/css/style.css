@@ -875,7 +875,7 @@ footer{
   .main {
     grid-area: main;
     max-width: 800px;
-    padding-left: 10rem;
+    /*padding-left: 10rem;*/
   }
   
   body#shop h2 {
@@ -1159,3 +1159,11 @@ margin-top:10px;
   }
   
   
+@media only screen and (min-width: 1024px) {
+
+  .main {
+   padding-left: 10rem;
+ }
+ 
+ }  
+ 
