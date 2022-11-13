@@ -2,18 +2,35 @@
 @media only screen and (max-width: 992px) and (min-width: 769px) {
 
     .innerbox-section{
-        padding-left: 2%;
-        padding-right: 2%;    	
+    padding-left: 2%;
+    padding-right: 2%;    	
         }
         
-           
-        nav #menu1{
-          font-size:1.2em;   
-          width:100%;
+    /* countdown */    
+    
+
+    .countdown > div{
+   /*  width: 100px; */
+    padding: 35px 0px!important;
+    margin: 10px;
+    font-size: 2.22rem;
+    line-height:26px;   
+    }
+    
+    .countdown > div > span{
+      font-size: 01.1rem;
+   
+  }
+
+
+
+    nav #menu1{
+    font-size:1.2em;   
+    width:100%;
           }    
     
-     #nav-display-offer span{
-        font-size:1.4em;
+    #nav-display-offer span{
+    font-size:1.9em;
          }
      
      
@@ -26,21 +43,46 @@
     img.logo{
     margin-left:80px;
     display:none;
+    }
 
+    	
+  #hero span#span-1 {
+    font-size:3.2em;	
+    line-height:1.1em;  
+    
     }
         
+    .btn-hero{	
+    font-size: 1.1em;
+ 
+      }
+    
+
     #hero a#btn-know-more{
-    left:32%; 	
+    left:22%; 	
     }
     
     
     #hero a#btn-hero-buy-now{
-    left:52%; 
-    
+    left:52%;     
     }
-        
+    
+
+    .btn-cuponcode{	   
+      padding: 1.7em 7.75em; 
+      font-size: 1.2em;
+      letter-spacing: 2px; 	      
+    }
+
+    button.btn-hero-cupon{
+      position:absolute;
+      margin-top:4em;
+      top:57%;  
+      }
+
+
     section h2{
-    font-size:1.3em; 
+    font-size:1.7em; 
     }
     
     section#medicaldevice .innerbox-section{
