@@ -84,6 +84,9 @@
 	display:none;
 	}
 
+	section#medicaldevice{
+
+	}
 
 
 	/*infos*/
@@ -97,16 +100,22 @@
 	color:#fff;	
 	}
 
+	/*///// section#medicaldevice///////////*/
+	section#medicaldevice ul.myicons p {
+		height: 90px;	
+		}
+
+	section#medicaldevice ul.myicons {  		
+	padding-bottom:50px!important;
+	}
+
 
 
 	/*///// certification ///////////*/	
 
+	
 	section#certification ul.myicons {
-	height:120px;	
-	}	
-
-	section#certification ul.myicons {
-	height:120px;	
+	height:150px;	
 	}	
 
 	section#certification.myicons{
