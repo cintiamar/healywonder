@@ -1139,6 +1139,60 @@ margin-top:10px;
     cursor:pointer;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);  
   }
+
+
+  
+/* Quiz  */
+
+[id=container] {
+  width: 50vw;
+  background: white;
+  color: #000;
+  margin: 20px auto;
+  overflow: auto;
+  padding: 2.6rem;
+  border: 1px solid #CE9797;
+}
+
+[id=container] h3{
+font-size:16px;
+text-align:left;
+}
+
+input[type="submit"] {
+  background: #f4744d;;
+  border: 0;
+  color: #fff;
+  padding: 10px 12px;
+  cursor: pointer;
+}
+
+[id=results] {
+  margin-top: 1rem;
+}
+
+[id=results] h3 {
+  background: #EEE4E1;
+  padding: 10px;
+  margin: 10px 0;
+  color: #000;
+}
+
+#answer{
+  visibility: hidden;
+}
+
+#show-answer{
+  visibility: visible;
+}
+
+
+
+
+
+
+
+
   
   
 @media only screen and (min-width: 1024px) {
