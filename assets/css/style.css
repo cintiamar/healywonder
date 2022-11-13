@@ -899,6 +899,10 @@ footer{
     transition: 0.2s;
     --flow-space: 0.5rem;
   }
+
+  .form__control {
+    margin: 0 auto;
+   }
   
   .form__control:focus-within {
     border-width: 2px;
