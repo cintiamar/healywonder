@@ -900,9 +900,16 @@ footer{
     --flow-space: 0.5rem;
   }
 
-  .form__control {
+      /* centraliza o form_control btn central page*/
+  
+  .form__control{
     margin: 0 auto;
    }
+  
+   body#shop .form__control{
+    margin-left: 0;
+   }
+  
   
   .form__control:focus-within {
     border-width: 2px;
@@ -959,7 +966,10 @@ footer{
   
   .button svg {
     transform: translateY(1px); /* Optical adjustment */
+    
   }
+  
+ 
   
   /**
    * ALERT COMPONENT
@@ -1023,6 +1033,11 @@ footer{
    body#shop footer a{
     color:#fff;
   }
+
+ body#shop .form__control {
+    margin: 0 auto;
+   }
+  
   
 
   /* JavaScript styles */

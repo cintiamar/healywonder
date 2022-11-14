@@ -26,7 +26,7 @@
         <div id='navbar'>
             <nav>
                 <div id='menu1' class='black-1'>
-                    <img  src="assets/images/logo/logo-120x105.png"   class="logo"> 
+                    <img  src="assets/images/logo/logo-120x105.png"  alt="logo" class="logo"> 
                     <h1>  Healywonder </h1>
                   
                 </div>
@@ -174,56 +174,45 @@
 
     <section id="quiz" >	
         <div class="innerbox">
-          <div id="container"> 
-            <h2>Healywonder Quiz</h2>
-            <p>Test your knowledge in <strong>Microcurrent Frequency (IMF)</strong></p>
-            <form name="quizForm">
-            <h3>1. Microcurrent Frequencies (MIF) with electrodes cannot be used for::</h3>
-            <input type="radio" name="q1" value="a" id="q1a">a. &lt;heart pacemaker&gt;<br>
-            <input type="radio" name="q1" value="b" id="q1b">b. &lt;pregant&gt;<br>
-            <input type="radio" name="q1" value="c" id="q1c">c. &lt;pet&gt;<br>
-            <input type="radio" name="q1" value="d" id="q1d">d. &lt;children&gt;<br>
-    
-            <h3>2.How many hours does the Healy battery last?</h3>
-            <input type="radio" name="q2" value="a" id="q2a">a. 6 hours<br>
-            <input type="radio" name="q2" value="b" id="q2b">b. 3 hours<br>
-            <input type="radio" name="q2" value="c" id="q2c">c. 8 hours<br>
-            <input type="radio" name="q2" value="d" id="q2d">d. 5 hours<br>
-    
-            <h3>3. Is Healy a German, American, Japanese, Italian and Dutch product?</h3>
-            <input type="radio" name="q3" value="a" id="q3a">a. American<br>
-            <input type="radio" name="q3" value="b" id="q3b">b. Dutch;<br>
-            <input type="radio" name="q3" value="c" id="q3c">c. Japanese<br>
-            <input type="radio" name="q3" value="d" id="q3d">d. German;<br>
-    
-            <h3>4. Do I need a cell phone or tablet to use Healy?</h3>
-            <input type="radio" name="q4" value="a" id="q4a">a. True<br>
-            <input type="radio" name="q4" value="b" id="q4b">b. False<br>
-    
-            <h3>5.Has Healy any certification?</h3>
-            <input type="radio" name="q5" value="a" id="q5a">a. no<br>
-            <input type="radio" name="q5" value="b" id="q5b">a. yes<br>
-            <input type="radio" name="q5" value="c" id="q5c">c. FDA Approved<br>
-    
-            <br><br>
-            <input type="submit" id="myBtn"  value="Submit Answers">
-    
-            <!-- The Modal -->
-            <div id="myModal" class="modal">
-    
-              <!-- Modal content -->
-              <div class="modal-content">
-                <span class="close">&times;</span>
-                <p>You missed some questions.</p>
-              </div>
-            </div>
-        </div>	<!-- countainer -->
-    
-    
-          </form>
-          <div id="results"></div>
-    
+            <div id="container"> 
+                <h2>Healywonder Quiz</h2>
+                <p>Test your knowledge in <strong>Microcurrent Frequency (IMF)</strong></p>
+                <form name="quizForm">
+                    <h3>1. Microcurrent Frequencies (MIF) with electrodes cannot be used for:</h3>
+                    <input type="radio" name="q1" value="a" id="q1a">a. &lt;heart pacemaker&gt;<br>
+                    <input type="radio" name="q1" value="b" id="q1b">b. &lt;pregant&gt;<br>
+                    <input type="radio" name="q1" value="c" id="q1c">c. &lt;pet&gt;<br>
+                    <input type="radio" name="q1" value="d" id="q1d">d. &lt;children&gt;<br>
             
+                    <h3>2.How many hours does the Healy battery last?</h3>
+                    <input type="radio" name="q2" value="a" id="q2a">a. 6 hours<br>
+                    <input type="radio" name="q2" value="b" id="q2b">b. 3 hours<br>
+                    <input type="radio" name="q2" value="c" id="q2c">c. 8 hours<br>
+                    <input type="radio" name="q2" value="d" id="q2d">d. 5 hours<br>
+            
+                    <h3>3. Is Healy a German, American, Japanese, Italian and Dutch product?</h3>
+                    <input type="radio" name="q3" value="a" id="q3a">a. American<br>
+                    <input type="radio" name="q3" value="b" id="q3b">b. Dutch;<br>
+                    <input type="radio" name="q3" value="c" id="q3c">c. Japanese<br>
+                    <input type="radio" name="q3" value="d" id="q3d">d. German;<br>
+            
+                    <h3>4. Do I need a cell phone or tablet to use Healy?</h3>
+                    <input type="radio" name="q4" value="a" id="q4a">a. True<br>
+                    <input type="radio" name="q4" value="b" id="q4b">b. False<br>
+            
+                    <h3>5.Has Healy any certification?</h3>
+                    <input type="radio" name="q5" value="a" id="q5a">a. no<br>
+                    <input type="radio" name="q5" value="b" id="q5b">a. yes<br>
+                    <input type="radio" name="q5" value="c" id="q5c">c. FDA Approved<br>
+            
+                    <br><br>
+                    <input type="submit"   value="Submit Answers">
+    
+    
+                 </form>
+                <div id="results"></div>
+    
+            </div>	<!-- container -->
     
         </div> 	<!-- innerbox -->
     
@@ -254,16 +243,21 @@
                          name="email"
                          id="email"
                          value=""
-                         autocapitalize="none"
-                         autocomplete="false"
-                         autocorrect="off"
+                         autocapitalize="none"                                    
                          required
-                         pattern="[^@]+@[^\.]+\..+" />
+                         pattern="[^@]+@[^\.]+\..+" >
                   <label for="email">Email Address</label>
                   <button class="button">
                     <span class="visually-hidden">Submit email</span>
-                    <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="12" height="20"><path fill="none" stroke="#FFF" stroke-width="2" d="M1 1l8.836 8.836L1 18.671" /></svg>
-                  </button>
+                 <!--   <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="12" height="20"><path fill="none" stroke="#FFF" stroke-width="2" d="M1 1l8.836 8.836L1 18.671" ></svg> -->
+                  <svg  aria-hidden="true" focusable="false"  width="12" height="20">
+                    <g fill="none">
+                        <path stroke="#FFF" stroke-width="2" d="M1 1l8.836 8.836L1 18.671" >
+                    </g>
+                   
+                </svg>
+
+                </button>
                   <div class="alert_icon"></div>
                 </div>
           </form>
@@ -274,7 +268,7 @@
 
     <a href="" title="" id="scroll-to-top"><i class="fas fa-chevron-up"></i></a>
     
-    <section></section>
+  
     <footer>
         <div class="innerbox"> 
             <div class="row" >
@@ -302,7 +296,9 @@
 	<script  src="assets/js/script.js"></script>
 	<script  src="js/lightbox-plus-jquery.min.js"></script>  <!-- scrol to top  -->
     
-    <script >  <!-- scrol to top  -->
+    <script > 
+    
+    <!-- scrol to top  -->
         $(document).ready(function(){
             // einblenden des scroll-to-top-buttons
             $(function () {
@@ -324,6 +320,6 @@
             });
         
         });
-        </script>
+    </script>
 </body>
 </html>
