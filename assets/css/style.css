@@ -253,7 +253,7 @@ img.logo{
     height:100vh;  
     background:#f2f2f2;		
     background:rgba(242,242,242,0.7);
-    background-image:linear-gradient(to bottom, rgba(2, 0, 36, 0.2), rgba(117, 19, 93, 0.63)),url('../images/hero/hero-2.png'); 
+    background-image:linear-gradient(to bottom, rgba(2, 0, 36, 0.2), rgba(117, 19, 93, 0.63)),url('../images/hero/hero-2-w.webp'); 
     background-repeat:no-repeat;
     background-position:center top; 
     background-attachment:fixed;
@@ -843,7 +843,7 @@ footer{
   
   .side-image {
     grid-area: side-image;
-    background-image: url('../images/shop/healywonder-850x1200-1.png');
+    background-image: url('../images/shop/hero-mobile-shop-1280x850-w.webp');
     background-repeat: no-repeat;
     background-size: cover;
   }

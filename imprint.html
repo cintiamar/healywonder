@@ -32,23 +32,27 @@
       <form action="/" class="[ form ] [ flow ]" method="POST" id="form">
         <div class="form__control">
           <input type="email"
-                name="email"
-                id="email"
-                value=""
-                autocapitalize="none"
-                autocomplete="false"
-                autocorrect="off"
-                required
-                pattern="[^@]+@[^\.]+\..+" />
+                 name="email"
+                 id="email"
+                 value=""
+                 autocapitalize="none"                                    
+                 required
+                 pattern="[^@]+@[^\.]+\..+" >
           <label for="email">Email Address</label>
           <button class="button">
-            <span class="visually-hidden">Submit email</span>
-            <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="12" height="20"><path fill="none" stroke="#FFF" stroke-width="2" d="M1 1l8.836 8.836L1 18.671" /></svg>
-          </button>
+            <span class="visually-hidden">Submit email</span>         
+          <svg  aria-hidden="true" focusable="false"  width="12" height="20">
+            <g fill="none">
+                <path stroke="#FFF" stroke-width="2" d="M1 1l8.836 8.836L1 18.671" >
+            </g>
+           
+        </svg>
+
+        </button>
           <div class="alert_icon"></div>
         </div>
-      </form>
-      <div aria-atomic="true" role="alert" class="form__alert"></div>
+  </form>
+  <div aria-atomic="true" role="alert" class="form__alert"></div>
       
     
     </main>

@@ -61,7 +61,7 @@
 
 
 	#hero{
-	background-image:linear-gradient(to bottom, rgba(2, 0, 36, 0.2), rgba(117, 19, 93, 0.63)),url('../images/hero/mobile/hero-mobile-1280x850.png')!important;
+	background-image:linear-gradient(to bottom, rgba(2, 0, 36, 0.2), rgba(117, 19, 93, 0.63)),url('../images/hero/mobile/hero-mobile-1280x850-w.webp')!important;
 	background-position:center center;
 	}
 
@@ -181,13 +181,15 @@
 	footer .innerbox ul#legal{
 	float:left;
 	margin-top:0px!important;
-	font-size:15px;
-	}
+	/*font-size:15px;*/
+		}
 
-
+	
 	footer .innerbox ul#legal li a{
 	display:block;
 	line-height:2em; 
+	font-size:17px;
+	padding:10px 0;
 	}
 
 	ul#copyright.vierfuenftel li{
