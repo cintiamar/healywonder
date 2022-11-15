@@ -3,7 +3,7 @@
 @media only screen and (max-width: 420px){	
 	
 	.innerbox, .innerbox-section{
-	border:1px solid red;    
+	/* border:1px solid red;     */
 	padding-left:10px;
 	padding-right:10px;
 	padding-bottom:0;
@@ -21,12 +21,12 @@
 		
 
 	 #nav-display-offer span{
-		font-size:1.4em;
+	 display:none;
 	 }
 
-	 #nav-display-offer span#hide{
-		display:none;
-	 }
+	 #nav-display-offer span#mobile-offer-display{
+		display:block;	
+					}
 
 	 
 	 /* btn */
