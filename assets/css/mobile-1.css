@@ -15,10 +15,19 @@
 	display:none;
 	}	
 
+	nav #nav-display-offer{
+		white-space:nowrap; 
+		}        
+		
 
 	 #nav-display-offer span{
 		font-size:1.4em;
 	 }
+
+	 #nav-display-offer span#hide{
+		display:none;
+	 }
+
 	 
 	 /* btn */
 	 
