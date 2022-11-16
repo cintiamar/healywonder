@@ -75,7 +75,7 @@ The page has 3 buttons in different designs:
 ![Coupon Code](assets/images/readme-file/2-cupon-pop-up.png)
    
     In order to generate interactivity with users, the coupon code is generated through out a modal pop-up on the click button "coupon code"
-
+mf
 ## The Structure of Content 
 
 The landing sessions are distributed in 4 different structures according to their content.
@@ -87,12 +87,24 @@ The landing sessions are distributed in 4 different structures according to thei
 ![Videos](assets/images/readme-file/6-videos.png)
 2. Information about the product ***in videos***: the session starts in text, without an icon, and below videos with information about the product;
 
+![Medical Aplication ](assets/images/readme-file/4-info-box.png)
 3. Info-box : device medical application information - has greater importance of hierarchy, and receives the same color scheme as the landing page.e.
 
 ![CTA-buttons ](assets/images/readme-file/cta-buttons.png)
 4. button call-to-action : 2 CTA buttons distributed by the site, buy-now and newsletter.
 
 Both are designed with attractive cores that stand out among the site's content. With minimal text, they invite the user to action.
+
+## Quiz
+![Quiz ](assets/images/readme-file/quiz.png)
+
+In order to generate interactivity with the user, and provide more information about the product in a playful way, a quiz was developed just below the videos.
+Thus, after the user receives content about the product through videos, he is invited to interact for a longer time with the landing page, test his knowledge and clarify alleged objections.
+
+## Footer
+![Quiz ](assets/images/readme-file/footer.png)
+
+## Page "Under Construction
 
 **November 16, 2022**
 
