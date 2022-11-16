@@ -70,7 +70,27 @@ The page has 3 buttons in different designs:
 
     -  buy-now: call-to-action (CTA) button with a link to the online store. It is given the main color of the theme to make it stand out among the other buttons.
 
+### Coupon Code
+    
+![Coupon Code](assets/images/readme-file/2-cupon-pop-up.png)
+   
+    In order to generate interactivity with users, the coupon code is generated through out a modal pop-up on the click button "coupon code"
 
+## The Structure of Content 
+
+The landing sessions are distributed in 4 structures identified by different structures.
+
+![Product Information ](assets/images/readme-file/3-section.png)
+
+1. Information about the product in text: the session starts with an icon and below contains information about the product;
+
+2. Information about the product in videos: the session starts in text, without an icon, and below videos with information about the product;
+
+3. Info-box : device medical application information: has greater importance of hierarchy, and receives the color that in addition to having greater contrast, is the main color of the theme of the landing page.
+
+4 btn call-to-action : 2 CTA buttons distributed by the site, buy now and newsletter.
+
+Both are designed with attractive cores that stand out among the site's content. With minimal text, they invite the user to action.
 
 **November 16, 2022**
 
