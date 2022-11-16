@@ -6,6 +6,9 @@
     padding-right: 2%;    	
         }
         
+        .innerbox, .innerbox-section{
+          border:1px solid green;  
+          } 
     /* countdown */    
     
 
