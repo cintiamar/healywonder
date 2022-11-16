@@ -1,7 +1,7 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome to [Healywonder](https://cintiamar.github.io/healywonder/index.html)
-![Responsive Design](assets/images/readme-file/healywonder-900x600-t.png)
+![Responsive Design](assets/images/readme-file/healywonder.png)
 
 # Healywonder
 
@@ -72,7 +72,7 @@ The page has 3 buttons in different designs:
 
 ### Coupon Code
     
-![Coupon Code](assets/images/readme-file/2-cupon-pop-up.png)
+![Coupon Code](assets/images/readme-file/coupon-pop-up.png)
    
     In order to generate interactivity with users, the coupon code is generated through out a modal pop-up on the click button "coupon code"
 mf
@@ -96,7 +96,7 @@ The landing sessions are distributed in 4 different structures according to thei
 Both are designed with attractive cores that stand out among the site's content. With minimal text, they invite the user to action.
 
 ## Quiz
-![Quiz ](assets/images/readme-file/quiz.png)
+![Quiz ](assets/images/readme-file/7-quiz.png)
 
 In order to generate interactivity with the user, and provide more information about the product in a playful way, a quiz was developed just below the videos.
 Thus, after the user receives content about the product through videos, he is invited to interact for a longer time with the landing page, test his knowledge and clarify alleged objections.
@@ -105,6 +105,7 @@ Thus, after the user receives content about the product through videos, he is in
 ![Quiz ](assets/images/readme-file/footer.png)
 
 ## Page "Under Construction
+![Medical Aplication ](assets/images/readme-file/4-info-box.png)
 
 **November 16, 2022**
 
