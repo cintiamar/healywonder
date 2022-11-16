@@ -1,10 +1,50 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome cintiamar,
+Welcome to [Healywonder](https://cintiamar.github.io/healywonder/index.html)
+![The Home page](assets/images/readme-file/healywonder-900x600-t.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+# Healywonder
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Design Concept
+Healy Wonder is a ***Landing Page*** developed to promote sales offer for a frequency therapy in digital marketing campaigns to the ***female audience*** to a German device named **Healy**.
+
+Healy is a device certified for chronic pain that uses microcurrent frequency (MIF) programs to increase your health, vitality, and well-being. 
+
+The site's design concept communicates the feeling of well-being of a woman able to enjoy life without chronic pain.
+
+### Colors
+The colors orange, purple, pink was chose to refer to the Hedonist and Adventurer limbic profiles defined in the Limbic Map developed by neuromarketing studies.
+
+A light background color refers to tranquility and clarity, contrasting with the predominantly orange details, with details in blue and purple.
+
+### Responsive Web Design
+The landing page is designed to be responsive and accesible on a range of devices, making it easy to navigate for potetial customers.
+
+### One Page
+As a Landing page, it is designed to be one page site with link to the online shop.
+However, an additional "under construction" page has been developed to link to the information contained in the footer:
+
+- Imprint
+- Privacy
+- Contact
+
+Imprint, Privacy and Contact  were not developed at this stage of the project.   
+
+The contact form, cookie policy, and input for the newsletter are foreseen in the project and will be developed later.
+
+## Features
+While the homepage has dozens of possible distractions, the landing page is super focused.
+
+The design is developed to interact with the _female buyer persona_, ***classified in the limbic map as "Hedonist and Adventure"***.
+
+The **Quiz** on the subject of frequency therapy is used to provide interaction with the user.
+
+33Features to be developed:
+- contact form development;
+- form connection to database.
+
+
+**November 16, 2022**
 
 ## Gitpod Reminders
 
