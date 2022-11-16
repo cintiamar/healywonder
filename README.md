@@ -1,7 +1,7 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome to [Healywonder](https://cintiamar.github.io/healywonder/index.html)
-![The Home page](assets/images/readme-file/healywonder-900x600-t.png)
+![Responsive Design](assets/images/readme-file/healywonder-900x600-t.png)
 
 # Healywonder
 
@@ -39,9 +39,32 @@ The design is developed to interact with the _female buyer persona_, ***classifi
 
 The **Quiz** on the subject of frequency therapy is used to provide interaction with the user.
 
-33Features to be developed:
+## Features to be developed:
 - contact form development;
-- form connection to database.
+- database contact form connection.
+
+## Existing Features
+## Hero
+![The Home page](assets/images/readme-file/1-home.png)
+
+This section will allow the user to be immediately visually triggered by the **sales offer** with the **countdown** and **"last days"** message at the top of the landing page.
+
+The hero contains a message with the ***keyword 'chronic pain'*** to identify the subject of the landing page to the user.
+
+In order to generate interactivity and quick access to information, 2 buttons were developed:
+- know-more;
+- and buy-now.
+
+### The landing page image and buttons
+
+The landing includes a photograph of a woman  related to the page  with 3 buttons overlay, identical in each website page, to allow the user to quickly access the  website pages:
+
+The landing page includes a photograph of a woman feeling well and free from chronic pain.
+The page has 3 buttons in different designs:
+    • coupon code: in addition to providing the code to receive the 30% discount on the purchase, it was developed to generate interactivity with the user.
+    • know-more: links directly to two videos that explain the product of the sales page offer.
+    • buy-now: call-to-action (CTA) button with a link to the online store. It is given the main color of the theme to make it stand out among the other buttons.
+
 
 
 **November 16, 2022**
