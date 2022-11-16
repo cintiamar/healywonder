@@ -56,14 +56,19 @@ In order to generate interactivity and quick access to information, 2 buttons we
 - and buy-now.
 
 ### The landing page image and buttons
+![Responsive Design](assets/images/readme-file/hero-buttons.png)
 
-The landing includes a photograph of a woman  related to the page  with 3 buttons overlay, identical in each website page, to allow the user to quickly access the  website pages:
+The homepage includes a photograph of a woman feeling well and free from chronic pain with 3 buttons overlapping in a different design to establish a visual hierarchy.
 
-The landing page includes a photograph of a woman feeling well and free from chronic pain.
+In addition to the visual hierarchy, these buttons allow the user to quickly access the pages of the site according to the marketing campaign strategy.
+
 The page has 3 buttons in different designs:
-    • coupon code: in addition to providing the code to receive the 30% discount on the purchase, it was developed to generate interactivity with the user.
-    • know-more: links directly to two videos that explain the product of the sales page offer.
-    • buy-now: call-to-action (CTA) button with a link to the online store. It is given the main color of the theme to make it stand out among the other buttons.
+
+    1.  **coupon** code** : in addition to providing the code to receive the 30% discount on the purchase, it was developed to generate interactivity with the user;
+
+    - know-more: links directly to two videos that explain the product of the sales page offer;
+
+    -  buy-now: call-to-action (CTA) button with a link to the online store. It is given the main color of the theme to make it stand out among the other buttons.
 
 
 
