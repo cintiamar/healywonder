@@ -78,17 +78,19 @@ The page has 3 buttons in different designs:
 
 ## The Structure of Content 
 
-The landing sessions are distributed in 4 structures identified by different structures.
+The landing sessions are distributed in 4 different structures according to their content.
 
 ![Product Information ](assets/images/readme-file/3-section.png)
 
-1. Information about the product in text: the session starts with an icon and below contains information about the product;
+1. Information about the product ***in text***: the session starts with an **icon** and below contains information about the product;
 
-2. Information about the product in videos: the session starts in text, without an icon, and below videos with information about the product;
+![Videos](assets/images/readme-file/6-videos.png)
+2. Information about the product ***in videos***: the session starts in text, without an icon, and below videos with information about the product;
 
-3. Info-box : device medical application information: has greater importance of hierarchy, and receives the color that in addition to having greater contrast, is the main color of the theme of the landing page.
+3. Info-box : device medical application information - has greater importance of hierarchy, and receives the same color scheme as the landing page.e.
 
-4 btn call-to-action : 2 CTA buttons distributed by the site, buy now and newsletter.
+![CTA-buttons ](assets/images/readme-file/cta-buttons.png)
+4. button call-to-action : 2 CTA buttons distributed by the site, buy-now and newsletter.
 
 Both are designed with attractive cores that stand out among the site's content. With minimal text, they invite the user to action.
 
