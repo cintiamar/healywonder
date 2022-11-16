@@ -611,13 +611,17 @@ video{
 	height:auto !important;
 }
 
-
-section#receiving-my-frequencies h2.titleandspan{
-    margin-bottom:8px; 
+  section#receiving-my-frequencies{
+    padding-top:20px; 
     }
+
+
+  section#receiving-my-frequencies h2.titleandspan{
+      margin-bottom:8px; 
+      }
+      
     
-    
-        
+      
     section#receiving-my-frequencies span.spanheader{ 
     font-weight:300;
     letter-spacing:1px;
