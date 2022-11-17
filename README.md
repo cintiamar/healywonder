@@ -101,19 +101,25 @@ Thus, after the user receives content about the product through videos, he is in
 ## Footer
 ![Quiz ](assets/images/readme-file/footer.png)
 
-## Page "Under Construction
+## Page Under Construction
 ![Page Under Construction ](assets/images/readme-file/under-construction-900x600-t.png)
 
-### imprint - privacy - contact
+### **imprint - privacy - contact**
 
-To connect the links located in the footer, a page under construction was developed.
+To connect the footer´s links, a page under construction was developed.
 
 As mentioned at the beginning, the development of these 3 pages is not part of this stage of the project.
 
-## Validator Testing
+
+
+------
+
+## Validator  Report 
 
 ###  HTML
 All codings were checked at [W3C HTML Validator](https://validator.w3.org/#validate_by_input).
+
+##### Index
 
 Therefore still remained an error :
 * “ End tag a violates nesting rules.”  
@@ -121,10 +127,14 @@ Therefore still remained an error :
 
 ![html-validator-report](assets/images/readme-file/reports/html-validator-index.png).
 
-### CSS  
-css stylesheets were checked at [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
+### CSS 
+CSS stylesheets were checked at [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
 
+##### Index
 ![css-validator-report-2](assets/images/readme-file/reports/css-validator-index.png)
+
+##### Mobile
+![css-validator-report-2](assets/images/readme-file/reports/css-validator-mobile-1.png)
 
 ### Performance of  Website
 
@@ -137,12 +147,13 @@ Note: Will be fixed as I go to the JavaScript module.
 
 ## Unfixed Bugs
 
+1. `g and path` - **HTML Validator**
+[SVG Stroke Properties](https://www.w3schools.com/graphics/svg_stroking.asp)
+![css-validator-report-2](assets/images/readme-file/g-and-path.png)
 
 
 
-
-
-
+------
 
 ## Features
 
@@ -158,6 +169,7 @@ Frameworks, Libraries & Programs Used
 - database contact form connection.
 
 ## Existing Features
+
 
 
 Frameworks, Libraries & Programs Used
@@ -208,13 +220,14 @@ Media
   All images were created by the developer
 
 
-Acknowledgments
-My mentor Jubril for continuous helpful  feedback.
+## Acknowledgments
+My `Mentor Jubril` for continuous helpful  feedback.
 
 
 
 
-**November 16, 2022**
+
+**November 17, 2022**
 
 ## Gitpod Reminders
 
