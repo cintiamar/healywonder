@@ -811,7 +811,9 @@ footer{
     background-size: 100% 100%;
   }
   
-  
+  body#shop footer p{
+    color:#fff;
+  }
   
   
   /**
@@ -851,9 +853,8 @@ footer{
   }
   
   
-  body#shop  a{
-  margin-bottom:25px;
-  color:black;
+  body#shop header > a{
+   color:black;
   }
   
   
@@ -875,6 +876,7 @@ footer{
     grid-area: main;
     max-width: 800px;
     /*padding-left: 10rem;*/
+    margin-top:30px;
   }
   
   body#shop h2 {
