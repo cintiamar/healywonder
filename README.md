@@ -110,6 +110,39 @@ To connect the links located in the footer, a page under construction was develo
 
 As mentioned at the beginning, the development of these 3 pages is not part of this stage of the project.
 
+## Validator Testing
+
+###  HTML
+All codings were checked at [W3C HTML Validator](https://validator.w3.org/#validate_by_input).
+
+Therefore still remained an error :
+* “ End tag a violates nesting rules.”  
+ from dropdown menu that needs to be understood in order to be fixed.
+
+![html-validator-report](assets/images/readme-file/reports/html-validator-index.png).
+
+### CSS  
+css stylesheets were checked at [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
+
+![css-validator-report-2](assets/images/readme-file/reports/css-validator-index.png)
+
+### Performance of  Website
+
+The performance of website pages were checked at Lighthouse Google Chrome tool. Still remain some improvements specially related to JavaScript as indicated below:
+
+* reduce unsused JavaScript
+* resources are blocking the first paint of your page. Consider delivering critical JS/CSS inline and deferring all non-critical JS/styles
+
+Note: Will be fixed as I go to the JavaScript module.
+
+## Unfixed Bugs
+
+
+
+
+
+
+
 
 ## Features
 
