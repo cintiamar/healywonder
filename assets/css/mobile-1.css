@@ -96,7 +96,7 @@
 	section#certification div.svg-icons{
     padding-top:20px;
 	}
-	
+
 	/* SVG icons */
 
 	.svg-size{              
@@ -195,8 +195,7 @@
 
 	footer .innerbox ul#legal{
 	float:left;
-	margin-top:0px!important;
-	/*font-size:15px;*/
+	margin-top:0px!important;	
 		}
 
 	
@@ -213,29 +212,27 @@
 
 		/* quiz*/
 
-		[id=container] {
-			width: 98vw;
-			margin:0;
-			border:none;
-			padding:10px;
-		  }
+	[id=container] {
+	width: 98vw;
+	margin:0;
+	border:none;
+	padding:10px;
+	}
 	  
 	  
-
-
 	/* page under construction  */
 
-
+/* 
 	@media screen and (-ms-high-contrast: active) {
 	  input[type],
 	  button {
 		border: 1px solid;
 	  }
-	}
+	} */
 	  
 
 
-	  body#shop {
+	body#shop {
 		grid-template-columns: 100%;
 		grid-template-areas:
 		  "header"
@@ -250,61 +247,61 @@
 	}
 
 
-	  .side-image {
-		display:none;
+	.side-image {
+	display:none;
 	  }
 	  
 	  /**
 	* Main
 	**/
 
-		.main {
-		  grid-area: main;
-		  max-width: 300px;
-		  padding-left:1rem!important;
+	.main {
+	grid-area: main;
+	max-width: 300px;
+	padding-left:1rem!important;
+	  
+	  }	
 		
-		}
-		
-		body#shop h2 {
-		font-size: 2.3rem;
+	body#shop h2 {
+	font-size: 2.3rem;
 		}
 
 		  
-	  .main, header {
-	   padding: 2rem;
-		width: 100vw;
-		margin: 0 auto; 
+	.main, header {
+	padding: 2rem;
+	width: 100vw;
+	margin: 0 auto; 
 	  }
 	  
-	  .main h2, .main p{
-		text-align: center;
+	.main h2, .main p{
+	text-align: center;
 	  }
 	  
-	  .main h2 {
-		font-size: 3rem;
+	.main h2 {
+	font-size: 3rem;
 	  }
 	  
-	  .main p {
-		width: 98%;
-		margin: 0 auto;
-		font-size:25px;
+	.main p {
+	width: 98%;
+	margin: 0 auto;
+	font-size:25px;
 	  }
 	  
-	  .main p ~ span{
-		line-height:80px;	
-		display:flex;
-		justify-content: center;
-		font-size:22px;
+	.main p ~ span{
+	line-height:80px;	
+	display:flex;
+	justify-content: center;
+	font-size:22px;
 		}
 
 	  
-	   .form__control {
-		width: 98%;
-		margin: 0 auto;
+	.form__control {
+	width: 98%;
+	margin: 0 auto;
 	  }
 	  
-	  .button {
-	  min-width: 3.5rem;
+	.button {
+	min-width: 3.5rem;
 
 	}
 

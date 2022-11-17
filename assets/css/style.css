@@ -663,7 +663,7 @@ video{
     }	
     
     section#receiving-my-frequencies article div#video-editions-1{
-      margin-top:40px;
+    margin-top:40px;
      }
 
      section#receiving-my-frequencies article h3{
@@ -1304,9 +1304,105 @@ body {font-family: Arial, Helvetica, sans-serif;}
   
 @media only screen and (min-width: 1024px) {
 
+  .innerbox, .innerbox-section{
+    border:1px solid #f90;
+    }  
+
   .main {
    padding-left: 10rem;
  }
  
  }  
+
+
+ @media only screen and (max-width: 1023px) and (min-width: 993px) {
+
+  .innerbox, .innerbox-section{
+    border:1px solid purple;  
+    }  
+
+    .innerbox-section{
+    padding-left: 2%;
+    padding-right: 2%;    	
+        }
+        
+       
+    /* countdown */    
+    
+
+  /*   .countdown > div{  
+    padding: 35px 0px!important;
+    margin: 10px;
+    font-size: 2.22rem;
+    line-height:26px;   
+    }
+    
+    .countdown > div > span{
+      font-size: 01.1rem;   
+  }
+ */
+
+
+   /*  nav #menu1{
+    font-size:1.2em;   
+    width:100%;
+          }   */  
+    
+    /* #nav-display-offer span{
+    font-size:1.9em;
+         } */
+     
+    section#receiving-my-frequencies article div#video-editions-1{
+    margin-top:75px;
+           }
+     
+    footer ul#social-footer li:nth-child(2), footer ul#social-footer li:nth-child(3){ 
+    display:none!important;
+    }
+    
+    
+        
+    img.logo{
+    margin-left:80px;
+    display:none;
+    }
+
+    div.svg-icons{
+      padding-top:30px;
+    }
+    
+ /*    	
+  #hero span#span-1 {
+    font-size:3.2em;	
+    line-height:1.1em;  
+        } */
+        
+   /*  .btn-hero{	
+    font-size: 1.1em;
  
+      }
+     */
+
+    #hero a#btn-know-more{
+    left:22%; 	
+    }
+    
+    
+    #hero a#btn-hero-buy-now{
+    left:52%;     
+    }
+    
+
+    /* .btn-cuponcode{	   
+      padding: 1.7em 7.75em; 
+      font-size: 1.2em;
+      letter-spacing: 2px; 	      
+    } */
+
+    button.btn-hero-cupon{
+      position:absolute;
+      margin-top:4em;
+      top:57%;  
+      }
+
+    }
