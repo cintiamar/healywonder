@@ -46,6 +46,8 @@ The contact form, cookie policy, and input for the newsletter are foreseen in th
 
 This section will allow the user to be immediately visually triggered by the **sales offer** with the **countdown** and **"last days"** message at the top of the landing page.
 
+The **sticky header** accompanies the user through the landing page, with the sales offer and working on the branding of the brand.
+
 The hero contains a message with the ***keyword 'chronic pain'*** to identify the subject of the landing page to the user.
 
 In order to generate interactivity and quick access to information, 2 buttons were developed:
@@ -97,6 +99,12 @@ Both are designed with attractive cores that stand out among the site's content.
 
 In order to generate interactivity with the user, and provide more information about the product in a playful way, a quiz was developed just below the videos.
 Thus, after the user receives content about the product through videos, he is invited to interact for a longer time with the landing page, test his knowledge and clarify alleged objections.
+
+### Quiz Score
+![Score ](assets/images/readme-file/quiz-score.png)
+
+### Quiz Modal Popup
+![Modal Popup](assets/images/readme-file/quiz-modal-popup.png)
 
 ## Footer
 ![Quiz ](assets/images/readme-file/footer.png)
@@ -201,6 +209,8 @@ Canva was used to create the layout, logo, resizing images and editing photos fo
 TinyPng was used to reduce file size and thus optimize website performance.
 11. Cloudconvert
 Cloudconvert was used to convert the shrinked images to webp  format.
+12. Favicon 
+[Real Favicon Generator](https://realfavicongenerator.net/) used to create favicon.
 
 ## Credits
 
