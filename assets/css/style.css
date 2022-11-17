@@ -450,7 +450,19 @@ div#alleditions .buy-now{
     span.icon-style-header i{
     padding-top:50px;
     }
-        
+       
+    /* SVG icons */
+
+  .svg-size{              
+  height: 70px;
+  width: 70px;          
+  }
+
+  .svg-icons{	  
+  display: flex; 
+  justify-content: center;
+  }
+
     
     
     /* Myicons  //////*/

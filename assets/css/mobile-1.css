@@ -93,10 +93,16 @@
 	display:none;
 	}
 
-	section#medicaldevice{
-
+	section#certification div.svg-icons{
+    padding-top:20px;
 	}
+	
+	/* SVG icons */
 
+	.svg-size{              
+        height: 50px;
+        width: 50px;          
+      }
 
 	/*infos*/
 

@@ -50,6 +50,10 @@
     display:none;
     }
 
+    div.svg-icons{
+      padding-top:30px;
+    }
+    
     	
   #hero span#span-1 {
     font-size:3.2em;	
