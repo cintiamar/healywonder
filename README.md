@@ -149,10 +149,20 @@ TinyPng was used to reduce file size and thus optimize website performance.
 Cloudconvert was used to convert the shrinked images to webp  format.
 
 ## Credits
- 
-Code
 
-Welcome to [Healywonder](https://cintiamar.github.io/healywonder/index.html)
+1. [Codinglearners](https://www.codinglearners.com/how-to-create-product-sales-countdown-timer-using-html-css-js) - Sales  Countdown Timer: 
+ countdown used on the hero to show sales offer left time. 
+ 
+
+2. [Easy Tutorials ](https://www.youtube.com/watch?v=AF6vGYIyV8M&t=549s) - Coupon Code: Modal Popup used on home page 
+
+3. [Codepen](https://codepen.io/kklumpp13/pen/xVwBKE) -  Quiz: Credits to Krystal Klumpp 
+
+
+4. [W3 Schools](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal) - Modal Popup: alert Modal Popup used on Quiz
+
+
+
  The full-screen hero code came  from this <StackOverflow post  > -> fazer ser um link para pagina ficará em azul
   <Bootstrap4>: Bootstrap library used throughout the project mainly to make site responsive  using the Bootstrap Grid system.
 MDN Web Docs> For  Pattern Validation code. Code was modified to  better fit  my needs and to match an Irish  phone number layout to ensure correct validation. Tutorial found <here>
