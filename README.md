@@ -121,9 +121,10 @@ All codings were checked at [W3C HTML Validator](https://validator.w3.org/#valid
 
 ##### Index
 
-Therefore still remained an error :
-* “ End tag a violates nesting rules.”  
- from dropdown menu that needs to be understood in order to be fixed.
+Therefore still remained an error: `end tag g dit not match with path`
+
+I didn't find any information that justified the error pointed out in the HTML checker report.
+**Please see my comments on Unfixed bugs**
 
 ![html-validator-report](assets/images/readme-file/reports/html-validator-index.png).
 
@@ -147,7 +148,15 @@ Note: Will be fixed as I go to the JavaScript module.
 
 ## Unfixed Bugs
 
-1. `g and path` - **HTML Validator**
+### HTML error
+
+1. `end tag g dit not match with path` - **HTML Validator**
+![Responsive Design](assets/images/readme-file/html-validator-error.png)
+
+**Note**
+In the W3 Schools tutorial on stroke properties, all examples use `g with path`.
+I didn't find any information that justified the error pointed out in the HTML checker report.
+
 [SVG Stroke Properties](https://www.w3schools.com/graphics/svg_stroking.asp)
 ![css-validator-report-2](assets/images/readme-file/g-and-path.png)
 
