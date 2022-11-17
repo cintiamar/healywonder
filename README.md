@@ -133,7 +133,7 @@ All codings were checked at [W3C HTML Validator](https://validator.w3.org/#valid
 Therefore still remained an error: `end tag g dit not match with path`
 
 I didn't find any information that justified the error pointed out in the HTML checker report.
-**Please see my comments on Unfixed bugs**
+**Please read my comments on Unfixed bugs**
 
 ![html-validator-report](assets/images/readme-file/reports/html-validator-index.png).
 
@@ -165,6 +165,8 @@ A simulation was performed to see how the site would perform without Vimeo video
 An alternative to viewing Vimeo videos without compromising the site's performance would be to use **lazy load**.
 
 I tested the alternative suggested by  The Mudra Organization, Tutorial found [here](https://github.com/the-muda-organization/vimeo-lazyload), however, my test did not succeed.
+
+The research and testing of other solutions for lazy load videos will be carried out in the future, in another stage of the project.
 
 ![Vimeo-Lazy-Load-Test](assets/images/readme-file/vimeo-lazy-load-test.png)
 `The video was not displayed`
