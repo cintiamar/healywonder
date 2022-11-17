@@ -48,47 +48,153 @@ function closePopup(){
 //source
 // https://codepen.io/kklumpp13/pen/xVwBKE
 
+
+// quiz
+//source
+// https://codepen.io/kklumpp13/pen/xVwBKE
+
 var formElement = document.forms['quizForm'];
 
 formElement.onsubmit = function submitAnswers(){
-	var total = 5;
-	var score = 0;
-	
-	// Get User Input
-	var q1 = document.forms["quizForm"]["q1"].value,
-	    q2 = document.forms["quizForm"]["q2"].value,
-	    q3 = document.forms["quizForm"]["q3"].value,
-	    q4 = document.forms["quizForm"]["q4"].value,
-	    q5 = document.forms["quizForm"]["q5"].value;
-	
-	// Validation
-	for(i = 1; i <= total;i++){
-		if(eval('q'+i) === null || eval('q'+i) === ''){
-			alert('You missed question '+ i);
-			return false;
-		}
-	}
-	
-	// Set Correct Answers
-	var answers = ["b","a","d","b","d"];
-	
-	// Check Answers
-	for(i = 1; i <= total;i++){
-		if(eval('q'+i) === answers[i - 1]){
-			score++;
-		}
-	}
-	
-	// Display Results
-	var results = document.getElementById('results');
-	results.innerHTML = '<h3>You scored <span>'+score+'</span> out of <span>'+total+'</span></h3>';
-	
-	return false;
+    var total = 5;
+    var score = 0;
+    
+    // Get User Input
+    var q1 = document.forms["quizForm"]["q1"].value,
+        q2 = document.forms["quizForm"]["q2"].value,
+        q3 = document.forms["quizForm"]["q3"].value,
+        q4 = document.forms["quizForm"]["q4"].value,
+        q5 = document.forms["quizForm"]["q5"].value;
+    
+    // Validation
+    for(i = 1; i <= total;i++){
+        if(eval('q'+i) === null || eval('q'+i) === ''){
+            alert('You missed question '+ i);
+            return false;
+        }
+    }
+    
+    // Set Correct Answers
+    var answers = ["b","a","d","b","d"];
+    
+    // Check Answers
+    for(i = 1; i <= total;i++){
+        if(eval('q'+i) === answers[i - 1]){
+            score++;
+        }
+    }
+    
+    // Display Results
+    var results = document.getElementById('results');
+    results.innerHTML = '<h3>You scored <span>'+score+'</span> out of <span>'+total+'</span></h3>';
+    
+    return false;
 }
 
 // end quiz
 
 
-// vimeo with LazyLoad 
+// Modal PopUp for QUIZ
+
+//source
+// https://codepen.io/kklumpp13/pen/xVwBKE
+
+var formElement = document.forms['quizForm'];
+
+formElement.onsubmit = function submitAnswers() {
+  var total = 5;
+  var score = 0;
+  var modal = document.getElementById("myModal");
+  var modalContent = document.getElementById("modal-content")
+
+  // Get User Input
+  var q1 = document.forms["quizForm"]["q1"].value,
+    q2 = document.forms["quizForm"]["q2"].value,
+    q3 = document.forms["quizForm"]["q3"].value,
+    q4 = document.forms["quizForm"]["q4"].value,
+    q5 = document.forms["quizForm"]["q5"].value;
+
+  // Validation" 
+  for (i = 1; i <= total; i++) {
+    if (eval('q' + i) === null || eval('q' + i) === '') {
+        console.log("you missed")
+        modal.style.display = "block";
+        modalContent.innerHTML += `<p>You missed some questions!</p>`
+      //alert('You missed question '+ i);
+      return false;
+    }
+  }
+
+  // Set Correct Answers
+  var answers = ["b", "a", "d", "b", "d"];
+
+  // Check Answers
+  for (i = 1; i <= total; i++) {
+    if (eval('q' + i) === answers[i - 1]) {
+      score++;
+    }
+  }
+
+  // Display Results
+  var results = document.getElementById('results');
+  results.innerHTML = '<h3>You scored <span>' + score + '</span> out of <span>' + total + '</span></h3>';
+
+  return false;
+}
+
+
+//Modal Popup for Quiz
+// https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal
+
+
+
+// var  z = 5;
+
+ //function openPopup(){
+    //if (z < total){
+      // Get the modal
+        var modal = document.getElementById("myModal");
+        var modalContent = document.getElementById("modal-content")
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the modal 
+
+        /* btn.onclick = function() {
+        modal.style.display = "block";
+        if(selectedQuestions === 5){
+            modalContent.innerHTML += `<p>congrats you scored 5/10!</p>`
+        }else{
+            modalContent.innerHTML += `<p>You missed some questions!</p>`
+        }
+        
+        }
+ */
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+        modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+        }
+
+
+
+
+//  }
+// }
+  
+      
+    
+
+        
 
 
