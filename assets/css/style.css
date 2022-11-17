@@ -1305,7 +1305,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
 @media only screen and (min-width: 1024px) {
 
   .innerbox, .innerbox-section{
-    border:1px solid #f90;
+    /* border:1px solid #f90; */
     }  
 
   .main {
@@ -1318,7 +1318,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
  @media only screen and (max-width: 1023px) and (min-width: 993px) {
 
   .innerbox, .innerbox-section{
-    border:1px solid purple;  
+    /* border:1px solid purple;   */
     }  
 
     .innerbox-section{

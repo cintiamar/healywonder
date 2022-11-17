@@ -5,7 +5,7 @@
 	
 	
 	.innerbox, .innerbox-section{
-	 border:1px solid blue;     
+	 /* border:1px solid blue;      */
 	padding-left:5px;
 	padding-right:5px;
 	}
