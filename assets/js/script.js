@@ -21,7 +21,7 @@ function countdown(){
     hoursDiv.innerHTML=hours;
     minsDiv.innerHTML=mins;
     secoundDiv.innerHTML=secound;
-    console.log( days,hours,mins,secound);
+   // console.log( days,hours,mins,secound);
     
  }
 countdown();
@@ -119,7 +119,10 @@ formElement.onsubmit = function submitAnswers() {
     if (eval('q' + i) === null || eval('q' + i) === '') {
         console.log("you missed")
         modal.style.display = "block";
-        modalContent.innerHTML += `<p>You missed some questions!</p>`
+        modalContent.innerHTML += `
+        <span class="close" onclick="closeModal()">&times;</span>
+        <p>You missed some questions!</p>
+        `
       //alert('You missed question '+ i);
       return false;
     }
@@ -173,15 +176,24 @@ formElement.onsubmit = function submitAnswers() {
         }
         
         }
+
+
+    
  */
         // When the user clicks on <span> (x), close the modal
-        span.onclick = function() {
+
+      
+
+      
+       function closeModal () {
+        modalContent.innerHTML = ""
         modal.style.display = "none";
         }
 
         // When the user clicks anywhere outside of the modal, close it
         window.onclick = function(event) {
         if (event.target == modal) {
+          modalContent.innerHTML = ""
             modal.style.display = "none";
         }
         }
