@@ -1,14 +1,16 @@
 
 @media only screen and (max-width: 992px) and (min-width: 769px) {
 
+  /* .innerbox, .innerbox-section{
+    border:1px solid green;  
+    }  */
+
     .innerbox-section{
     padding-left: 2%;
     padding-right: 2%;    	
         }
         
-        .innerbox, .innerbox-section{
-          border:1px solid green;  
-          } 
+       
     /* countdown */    
     
 

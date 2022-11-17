@@ -3,7 +3,7 @@
 @media only screen and (max-width: 420px){	
 	
 	.innerbox, .innerbox-section{
-	 border:1px solid red;     
+	/* border:1px solid red;     */
 	padding-left:10px;
 	padding-right:10px;
 	padding-bottom:0;

@@ -12,6 +12,14 @@ Healy is a device certified for chronic pain that uses microcurrent frequency (M
 
 The site's design concept communicates the feeling of well-being of a woman able to enjoy life without chronic pain.
 
+Another important aspect is that While the homepage has dozens of possible distractions, the **landing page** is super **focused**.
+
+### Buyer Persona
+
+The design is developed to interact with the _female buyer persona_, ***classified in the limbic map as "Hedonist and Adventure"***.
+
+The **Quiz** on the subject of frequency therapy is used to provide interaction with the user.
+
 ### Colors
 The colors orange, purple, pink was chose to refer to the Hedonist and Adventurer limbic profiles defined in the Limbic Map developed by neuromarketing studies.
 
@@ -32,18 +40,7 @@ Imprint, Privacy and Contact  were not developed at this stage of the project.
 
 The contact form, cookie policy, and input for the newsletter are foreseen in the project and will be developed later.
 
-## Features
-While the homepage has dozens of possible distractions, the landing page is super focused.
 
-The design is developed to interact with the _female buyer persona_, ***classified in the limbic map as "Hedonist and Adventure"***.
-
-The **Quiz** on the subject of frequency therapy is used to provide interaction with the user.
-
-## Features to be developed:
-- contact form development;
-- database contact form connection.
-
-## Existing Features
 ## Hero
 ![The Home page](assets/images/readme-file/1-home.png)
 
@@ -64,18 +61,18 @@ In addition to the visual hierarchy, these buttons allow the user to quickly acc
 
 The page has 3 buttons in different designs:
 
-    1.  **coupon** code** : in addition to providing the code to receive the 30% discount on the purchase, it was developed to generate interactivity with the user;
+1.  **coupon code** : in addition to providing the code to receive the 30% discount on the purchase, it was developed to generate interactivity with the user;
 
-    - know-more: links directly to two videos that explain the product of the sales page offer;
+2. **know-more**: links directly to two videos that explain the product of the sales page offer;
 
-    -  buy-now: call-to-action (CTA) button with a link to the online store. It is given the main color of the theme to make it stand out among the other buttons.
+3. **buy-now**: call-to-action (CTA) button with a link to the online store. It is given the main color of the theme to make it stand out among the other buttons.
 
 ### Coupon Code
     
 ![Coupon Code](assets/images/readme-file/coupon-pop-up.png)
    
     In order to generate interactivity with users, the coupon code is generated through out a modal pop-up on the click button "coupon code"
-mf
+
 ## The Structure of Content 
 
 The landing sessions are distributed in 4 different structures according to their content.
@@ -105,7 +102,74 @@ Thus, after the user receives content about the product through videos, he is in
 ![Quiz ](assets/images/readme-file/footer.png)
 
 ## Page "Under Construction
-![Medical Aplication ](assets/images/readme-file/4-info-box.png)
+![Page Under Construction ](assets/images/readme-file/under-construction-900x600-t.png)
+
+### imprint - privacy - contact
+
+To connect the links located in the footer, a page under construction was developed.
+
+As mentioned at the beginning, the development of these 3 pages is not part of this stage of the project.
+
+
+## Features
+
+Languages
+ HTML5
+ CSS
+ JavaScript
+
+Frameworks, Libraries & Programs Used
+
+## Features to be developed:
+- contact form development;
+- database contact form connection.
+
+## Existing Features
+
+
+Frameworks, Libraries & Programs Used
+
+1. JavaScript
+2. Hover.css  
+   Hover.css was used on header h1, sroll-to-top, buttons and the Social Media icons
+   Hover.css was used  to add floa transition while being hovered over.
+3. Google Fonts
+   Google fonts were used to import the " Roboto" font into the style.css file which is used to all pages throughout the project.
+4. Font Awesome
+   Font  Awesome was  used to all pages throughout the website to add icons for aesthetic and UX proposes.
+6. Git
+Git was used for version control by utilizing Gitpod terminal to Git and Push to Github.
+7. Github
+  Github is used to store the projects code after being pushed from Git.
+8. Canva
+Canva was used to create the layout, logo, resizing images and editing photos for the website.
+10. TinyPng
+TinyPng was used to reduce file size and thus optimize website performance.
+11. Cloudconvert
+Cloudconvert was used to convert the shrinked images to webp  format.
+
+## Credits
+ 
+Code
+
+Welcome to [Healywonder](https://cintiamar.github.io/healywonder/index.html)
+ The full-screen hero code came  from this <StackOverflow post  > -> fazer ser um link para pagina ficará em azul
+  <Bootstrap4>: Bootstrap library used throughout the project mainly to make site responsive  using the Bootstrap Grid system.
+MDN Web Docs> For  Pattern Validation code. Code was modified to  better fit  my needs and to match an Irish  phone number layout to ensure correct validation. Tutorial found <here>
+
+Content
+ All content was written by the developer.
+  Psychological properties  of colours  text in the README.md was found <here>
+
+Media
+  All images were created by the developer
+
+
+Acknowledgments
+My mentor Jubril for continuous helpful  feedback.
+
+
+
 
 **November 16, 2022**
 
