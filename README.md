@@ -1,4 +1,3 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome to [Healywonder](https://cintiamar.github.io/healywonder/index.html)
 ![Responsive Design](assets/images/readme-file/healywonder.png)
@@ -6,9 +5,9 @@ Welcome to [Healywonder](https://cintiamar.github.io/healywonder/index.html)
 # Healywonder
 
 ## Design Concept
-Healy Wonder is a ***Landing Page*** developed to promote sales offer for a frequency therapy in digital marketing campaigns to the ***female audience*** to a German device named **Healy**.
+Healy Wonder is a ***Landing Page*** developed to promote _sales offer_ for a frequency therapy in digital marketing campaigns to the ***female audience*** to a German device named **Healy**.
 
-Healy is a device certified for chronic pain that uses microcurrent frequency (MIF) programs to increase your health, vitality, and well-being. 
+Healy is a device **certified for chronic pain** that uses microcurrent frequency (MIF) programs to increase your health, vitality, and well-being. 
 
 The site's design concept communicates the feeling of well-being of a woman able to enjoy life without chronic pain.
 
@@ -17,8 +16,10 @@ Another important aspect is that While the homepage has dozens of possible distr
 ### Buyer Persona
 
 The design is developed to interact with the _female buyer persona_, ***classified in the limbic map as "Hedonist and Adventure"***.
+![Limbic Map](assets/images/readme-file/Limbic®-types.png)
+The Limbic map was found [here](https://www.widerfunnel.com/wp-content/uploads/2017/10/Limbic%C2%AE-types.png)
 
-The **Quiz** on the subject of frequency therapy is used to provide interaction with the user.
+Despite being a focused Landing page, a **Quiz** on the subject of frequency therapy is used to provide interaction with the user.
 
 ### Colors
 The colors orange, purple, pink was chose to refer to the Hedonist and Adventurer limbic profiles defined in the Limbic Map developed by neuromarketing studies.
@@ -106,7 +107,7 @@ Thus, after the user receives content about the product through videos, he is in
 ### Quiz Modal Popup
 ![Modal Popup](assets/images/readme-file/quiz-modal-popup.png)
 
-## Footer
+## Footer nd Newsletter
 ![Quiz ](assets/images/readme-file/footer.png)
 
 ## Page Under Construction
@@ -146,13 +147,34 @@ CSS stylesheets were checked at [W3C CSS Validator](https://jigsaw.w3.org/css-va
 ![css-validator-report-2](assets/images/readme-file/reports/css-validator-mobile-1.png)
 
 ### Performance of  Website
+![Performance](assets/images/readme-file/reports/performance-validador-overall.png)
 
-The performance of website pages were checked at Lighthouse Google Chrome tool. Still remain some improvements specially related to JavaScript as indicated below:
+The performance of website pages were checked at Lighthouse Google Chrome tool. 
 
-* reduce unsused JavaScript
-* resources are blocking the first paint of your page. Consider delivering critical JS/CSS inline and deferring all non-critical JS/styles
+The report suggested that Vimeo is slowing down the site's performance. 
 
-Note: Will be fixed as I go to the JavaScript module.
+### Vimeo-free performance simulation
+
+A simulation was performed to see how the site would perform without Vimeo videos.
+![Performance](assets/images/readme-file/reports/performance-without-vimeo.png)
+
+ It can be seen that the score increases significantly from 70% to 89%.
+
+ ### Lazy Load Test
+
+An alternative to viewing Vimeo videos without compromising the site's performance would be to use **lazy load**.
+
+I tested the alternative suggested by  The Mudra Organization, Tutorial found [here](https://github.com/the-muda-organization/vimeo-lazyload), however, my test did not succeed.
+
+![Vimeo-Lazy-Load-Test](assets/images/readme-file/vimeo-lazy-load-test.png)
+`The video was not displayed`
+
+### Lazy Load files
+
+![Vimeo-Lazy-Load-Test](assets/images/readme-file/lazy-load-test-1.png)
+![Vimeo-Lazy-Load-Test](assets/images/readme-file/lazy-load-test-2.png)
+
+
 
 ## Unfixed Bugs
 
@@ -174,14 +196,14 @@ I didn't find any information that justified the error pointed out in the HTML c
 
 ## Features
 
-Languages
- HTML5
- CSS
- JavaScript
+### Languages
+- HTML5
+ - CSS
+ - JavaScript
 
 Frameworks, Libraries & Programs Used
 
-## Features to be developed:
+### Features to be developed in this Project:
 - contact form development;
 - database contact form connection.
 
@@ -191,25 +213,24 @@ Frameworks, Libraries & Programs Used
 
 Frameworks, Libraries & Programs Used
 
-1. JavaScript
-2. Hover.css  
-   Hover.css was used on header h1, sroll-to-top, buttons and the Social Media icons
-   Hover.css was used  to add floa transition while being hovered over.
-3. Google Fonts
-   Google fonts were used to import the " Roboto" font into the style.css file which is used to all pages throughout the project.
-4. Font Awesome
-   Font  Awesome was  used to all pages throughout the website to add icons for aesthetic and UX proposes.
-6. Git
+1. **JavaScript**
+2. **Hover.css**  
+Hover.css was used on header h1, sroll-to-top, buttons and the Social Media icons to add float transition while being hovered over.
+3. **Google Fonts**: 
+Google fonts were used to import the " Roboto" font into the style.css file which is used to all pages throughout the project.
+4. **Font Awesome**:
+Font  Awesome was  used to all pages throughout the website to add icons for aesthetic and UX proposes.
+6. **Git**:
 Git was used for version control by utilizing Gitpod terminal to Git and Push to Github.
-7. Github
+7. **Github**:
   Github is used to store the projects code after being pushed from Git.
-8. Canva
+8. **Canva**:
 Canva was used to create the layout, logo, resizing images and editing photos for the website.
-10. TinyPng
+10. **TinyPng**:
 TinyPng was used to reduce file size and thus optimize website performance.
-11. Cloudconvert
+11. **Cloudconvert**:
 Cloudconvert was used to convert the shrinked images to webp  format.
-12. Favicon 
+12. **Favicon**:
 [Real Favicon Generator](https://realfavicongenerator.net/) used to create favicon.
 
 ## Credits
@@ -227,16 +248,14 @@ Cloudconvert was used to convert the shrinked images to webp  format.
 
 
 
- The full-screen hero code came  from this <StackOverflow post  > -> fazer ser um link para pagina ficará em azul
-  <Bootstrap4>: Bootstrap library used throughout the project mainly to make site responsive  using the Bootstrap Grid system.
-MDN Web Docs> For  Pattern Validation code. Code was modified to  better fit  my needs and to match an Irish  phone number layout to ensure correct validation. Tutorial found <here>
-
-Content
+### Content
  All content was written by the developer.
   Psychological properties  of colours  text in the README.md was found <here>
 
-Media
-  All images were created by the developer
+### Media
+The Limbic Map - source: [wiederfunnel](https://www.widerfunnel.com/).
+
+All other images were created by the developer
 
 
 ## Acknowledgments
@@ -248,103 +267,3 @@ My `Mentor Jubril` for continuous helpful  feedback.
 
 **November 17, 2022**
 
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
