@@ -453,121 +453,18 @@ div#alleditions .buy-now{
        
     /* SVG icons */
 
-  .svg-size{              
-  height: 70px;
-  width: 70px;          
-  }
+    .svg-size{              
+    height: 70px;
+    width: 70px;          
+    }
 
-  .svg-icons{	  
-  display: flex; 
-  justify-content: center;
-  }
+    .svg-icons{	  
+    display: flex; 
+    justify-content: center;
+    }
 
     
-    
-    /* Myicons  //////*/
 
-    body i:not(.fa-chevron-up  ){  
-        color:#f4744d; 
-             }         
-        
-        
-    
-        ul.myicons{
-            margin:0em;
-            padding:0;
-            list-style-type:none; 
-            }
-    
-            ul.myicons > li {
-            position: relative;
-            margin:0px;	
-            margin-top:0;	
-                }	
-            
-    
-            ul.myicons > li:first-child {
-                border-top: none;			
-                        }
-                        
-            ul.myicons > li:nth-child(2n){
-                border-top: none;		
-                        }
-                        
-            ul.myicons > li:nth-child(3n){
-                border-top: none;		
-                        }
-                
-                    
-            ul.myicons > li:first-child,
-            ul.myicons > li:nth-child(2n),
-            ul.myicons > li:nth-child(3n){
-                                }		
-        
-                                
-                        
-                section ul.myicons h3{
-                height: 1.1em;
-                display:flex;
-                margin:0;
-                display: flex;
-                align-items: center;
-                justify-content: center; 
-                }				
-            
-            ul.myicons i{
-            position:relative;	
-            top:50%;
-            left:50%;
-            transform:translate(-50%,0);
-            color:#440096;		
-            color:rgba(68,0,102,1);
-            }
-            
-            
-            ul.myicons i:hover{
-            color:#fff;	
-            color:rgba(255,255,255,0.7);
-            }
-    
-            ul.myicons .webicons {  
-            float: left;
-            display: inline-block;	
-            margin:20px 10px 0 10px; 
-            font-size:40px; 
-            line-height: 1.3em;
-            width:1.2em;	
-            background:#e2e1d6;		
-            background:rgba(226,225,214,1);
-            border-radius:50%;		
-            }
-            
-            ul.myicons .checkicon .webicons{   
-            margin:0px 10px 0 10px; 
-            font-size:30px;		
-            }
-            
-            
-            ul.myicons .webicons:hover {
-            background:#440096;			
-            background:rgba(68,0,102,1);	
-            transition: all 0.7s ease-in-out;
-            }
-        
-            
-            ul.myicons p {
-            height: 80px;		
-            margin:0;	
-            }
-    
-            
-            ul.myicons .checkicon  p{
-            height:50px;
-            align-items: center;
-            display:block; 
-            padding-top:8px;	
-            }
-     
      /* infos */       
      div.info-box{
     font-family:'Open Sans', sans-serif;

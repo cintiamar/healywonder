@@ -265,9 +265,10 @@ Cloudconvert was used to convert the shrinked images to webp  format.
 
 ### Media
 The Limbic Map - source: [wiederfunnel](https://www.widerfunnel.com/).
-
 All other images were created by the developer
 
+## Icons
+SVG Icons was designed on Canva by the developer.
 
 ## Acknowledgments
 My `Mentor Jubril` for continuous helpful  feedback.
