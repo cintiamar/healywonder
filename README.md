@@ -146,6 +146,15 @@ CSS stylesheets were checked at [W3C CSS Validator](https://jigsaw.w3.org/css-va
 ##### Mobile
 ![css-validator-report-2](assets/images/readme-file/reports/css-validator-mobile-1.png)
 
+## Console - Dev Tools
+![Console](assets/images/readme-file/reports/console.png)
+
+The console shows 3 recurring errors. 
+On Stack Overflow, I found an extensive topic, you can find [here](https://stackoverflow.com/questions/54126343/how-to-fix-unchecked-runtime-lasterror-the-message-port-closed-before-a-respon)
+ - As suggested on Stack Overflow, all Chrome extensions has been disabled. 
+ However, until the project's deadline, I did not find a solution.
+
+
 ### Performance of  Website
 ![Performance](assets/images/readme-file/reports/performance-validador-overall.png)
 
